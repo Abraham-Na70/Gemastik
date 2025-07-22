@@ -1,0 +1,7 @@
+openai-agents==0.0.15
+openai-agents[litellm]
+Flask[async]==3.1.1
+Flask_Cors==5.0.0
+pydantic==2.11.7
+python-dotenv==1.1.0
+Requests==2.32.4

@@ -1,0 +1,100 @@
+{
+  "message": "Data berhasil di raih",
+  "data": [
+    {
+      "_id": {
+        "$oid": "682accf97d49457b75d440cb"
+      },
+      "title": "Junior Front End Engineer (React/Next Js)",
+      "description": "Deskripsi pekerjaan Junior Front End Engineer (React/Next Js) Synapsis.id:\n\nDesign, develop, and build highly scalable, cross-platform, and high-performance web applications using TypeScript, React.js, and Next.js. Collaborate with project managers, UI/UX designers, and backend engineers to translate business requirements into technical solutions. Implement responsive, reusable, and accessible UI components that ensure a consistent user experience across different devices and browsers. Apply modern design patterns, coding principles, and best practices to produce clean, maintainable, and scalable code. Optimize web applications for speed, scalability, and accessibility. Write clean, maintainable, and well-documented code following best practices and coding standards. Ensure seamless integration between frontend components and backend services, working closely with backend engineers. Participate in code reviews, debugging, and troubleshooting to maintain high code quality and system stability.\n\nJob Requirements: Graduate from Bachelor, Diploma 3, or Diploma 4 degree from IT or other related majors. Minimum 1 year of experience as a Front End Engineer or similar role with strong proficiency in TypeScript. Experience with NextJs and ReactJs. Understanding of responsive website concepts and user-friendly interface. Attention to detail and proficiency in HTML5 and CSS3. Experience with state management libraries such as Zustand or Redux. Familiarity with component libraries like Ant Design (Antd) or Mantine UI. Able to use RESTful APIs, RSS (XML & JSON), and WebSocket. Experience with version control systems like Git. Ability to slice UI/UX designs into responsive web applications with self styling code and API integration is a plus. Knowledge of PWA development and Agile methodologies is an advantage.\n\nPlacement options: Halim, East Jakarta; Cilandak, South Jakarta (Alamanda Office Tower 11th Floor); Umbulharjo, Yogyakarta.",
+      "skills": [
+        "Frontend Development",
+        "Software Development",
+        "React.js",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "company_id": "68273fe5af9867c6e8268074"
+    },
+    {
+      "_id": {
+        "$oid": "682accf97d49457b75d440cc"
+      },
+      "title": "Backend Developer (Node.js/Go)",
+      "description": "Kami mencari Backend Developer berpengalaman untuk bergabung dengan tim kami. Anda akan bertanggung jawab untuk mendesain, mengembangkan, dan memelihara API RESTful yang scalable dan efisien. Diperlukan pemahaman yang kuat tentang database (SQL/NoSQL) dan arsitektur microservices. Pengalaman dengan cloud platform (AWS/GCP) adalah nilai tambah.\n\nPersyaratan: Pendidikan S1 di bidang Ilmu Komputer atau setara. Pengalaman minimal 2 tahun sebagai Backend Developer. Mahir dengan Node.js atau Go. Terbiasa dengan PostgreSQL atau MongoDB. Memahami konsep CI/CD dan pengujian unit/integrasi.",
+      "skills": [
+        "Backend Development",
+        "Node.js",
+        "Go",
+        "RESTful API",
+        "MongoDB",
+        "PostgreSQL"
+      ],
+      "company_id": "68273fe5af9867c6e8268075"
+    },
+    {
+      "_id": {
+        "$oid": "682accf97d49457b75d440cd"
+      },
+      "title": "UI/UX Designer",
+      "description": "Dicari UI/UX Designer yang kreatif dan bersemangat untuk menciptakan pengalaman pengguna yang intuitif dan menarik. Anda akan bekerja sama dengan tim produk dan engineering untuk menerjemahkan kebutuhan pengguna menjadi desain yang indah dan fungsional. Portofolio adalah kunci!\n\nPersyaratan: Pengalaman minimal 1 tahun di bidang UI/UX Design. Mahir menggunakan tools desain seperti Figma, Sketch, atau Adobe XD. Memahami prinsip-prinsip desain interaksi, usability, dan accessibility. Mampu membuat wireframe, prototype, dan user flow. Komunikasi yang baik dan kemampuan bekerja dalam tim.",
+      "skills": [
+        "UI Design",
+        "UX Design",
+        "Figma",
+        "Prototyping",
+        "User Research",
+        "Design Thinking"
+      ],
+      "company_id": "68273fe5af9867c6e8268076"
+    },
+    {
+      "_id": {
+        "$oid": "682accf97d49457b75d440ce"
+      },
+      "title": "Data Scientist (Machine Learning)",
+      "description": "Kami mencari Data Scientist yang berdedikasi dengan fokus pada Machine Learning untuk menganalisis dataset besar, membangun model prediktif, dan memberikan wawasan yang dapat ditindaklanjuti. Anda akan bekerja pada berbagai proyek yang berdampak langsung pada produk kami.\n\nPersyaratan: Gelar S2/S3 di bidang Ilmu Komputer, Statistika, Matematika, atau bidang terkait. Pengalaman minimal 2 tahun dalam Machine Learning. Mahir dengan Python (Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch). Pengalaman dengan SQL dan bekerja dengan database skala besar. Kemampuan komunikasi dan presentasi yang kuat.",
+      "skills": [
+        "Data Science",
+        "Machine Learning",
+        "Python",
+        "SQL",
+        "Deep Learning",
+        "Statistical Analysis"
+      ],
+      "company_id": "68273fe5af9867c6e8268074"
+    },
+    {
+      "_id": {
+        "$oid": "682accf97d49457b75d440cf"
+      },
+      "title": "Mobile Developer (Flutter)",
+      "description": "Bergabunglah dengan tim kami sebagai Mobile Developer yang mahir Flutter. Anda akan bertanggung jawab untuk mengembangkan dan memelihara aplikasi mobile cross-platform yang inovatif untuk Android dan iOS. Pengalaman dengan integrasi API dan push notifications sangat dihargai.\n\nPersyaratan: Pengalaman minimal 1 tahun dalam pengembangan aplikasi mobile menggunakan Flutter dan Dart. Pemahaman yang kuat tentang pola desain MVVM/BLoC. Familiar dengan manajemen state (Provider/Riverpod). Mampu mengonsumsi RESTful API. Pengetahuan tentang integrasi Firebase/Cloud Firestore.",
+      "skills": [
+        "Mobile Development",
+        "Flutter",
+        "Dart",
+        "Android",
+        "iOS",
+        "Firebase"
+      ],
+      "company_id": "68273fe5af9867c6e8268075"
+    },
+    {
+      "_id": {
+        "$oid": "682accf97d49457b75d440d0"
+      },
+      "title": "DevOps Engineer",
+      "description": "Mencari DevOps Engineer yang proaktif untuk mengotomatisasi dan mengelola pipeline CI/CD kami. Anda akan bekerja untuk memastikan ketersediaan, skalabilitas, dan keamanan infrastruktur kami. Pengalaman dengan Docker dan Kubernetes adalah suatu keharusan.\n\nPersyaratan: Pengalaman minimal 3 tahun sebagai DevOps Engineer atau posisi serupa. Mahir dengan Linux, scripting (Bash/Python). Pengalaman dengan alat CI/CD (Jenkins, GitLab CI). Pemahaman tentang containerization (Docker) dan orkestrasi (Kubernetes). Familiar dengan cloud computing (AWS, GCP, Azure).",
+      "skills": [
+        "DevOps",
+        "CI/CD",
+        "Docker",
+        "Kubernetes",
+        "Cloud Computing",
+        "Linux"
+      ],
+      "company_id": "68273fe5af9867c6e8268076"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+flasgger==0.9.7.1
+Flask[async]==3.1.1
+Flask_Cors==5.0.0
+flask_pymongo==3.0.1
+pydantic==2.11.7
+pymongo==4.13.1
+Werkzeug==3.1.3
