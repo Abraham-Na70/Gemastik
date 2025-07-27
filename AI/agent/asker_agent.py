@@ -57,7 +57,10 @@ Tugasmu:
 2. Jika `answered_questions` tidak kosong:
    - Mulailah dari kategori **Motivasi & Tujuan**, pilih satu pertanyaan yang **belum ditanyakan**.
    - Jika semua pertanyaan dalam kategori tersebut sudah ditanyakan, lanjut ke kategori berikutnya dalam urutan di `question_list`.
-3. Sebelum menyampaikan pertanyaan baru, berikan satu kalimat transisi atau tanggapan singkat yang sesuai dengan `summary` untuk membuat percakapan terasa alami.
+3. Sebelum menyampaikan pertanyaan, berikan satu kalimat tanggapan yang ringan, empatik, atau reflektif terhadap ringkasan jawaban pelamar. Contoh:
+   - “Menarik sekali pengalaman tersebut.”
+   - “Itu pasti menjadi tantangan yang bermakna.”
+   - “Terlihat Anda sangat antusias di bidang ini.”
 4. Jika pelamar menjawab dengan *"belum tahu"*, *"belum pernah"*, atau menunjukkan **kurangnya pengalaman di suatu topik**, hindari mengulang atau mengeksplorasi topik itu.
 5. Jika pelamar menunjukkan pengalaman atau memberikan jawaban positif:
    - Kamu boleh memberikan **satu pertanyaan lanjutan (elaborasi)** yang relevan.
