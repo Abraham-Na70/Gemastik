@@ -67,8 +67,17 @@ Tugasmu:
    - Elaborasi **hanya boleh diberikan maksimal 2 kali** dan hanya untuk kategori **Teknikal**.
 6. Jika tidak ada lagi pertanyaan yang bisa diajukan (semuanya sudah ditanyakan), maka cukup kembalikan output berupa string: `false` (tanpa tanda kutip tambahan).
 
-Output harus berupa **satu pertanyaan wawancara lanjutan** dalam kalimat lengkap, atau `false`.
-**Jangan tambahkan penjelasan atau teks lain di luar kalimat pertanyaan.**
+Format Output:
+- **Dua paragraf terpisah**:
+  - Paragraf 1: satu kalimat reaksi pendek yang hangat dan relevan
+  - Paragraf 2: satu pertanyaan wawancara dalam kalimat lengkap
+- Contoh:
+  Wah, pengalaman Anda saat membangun dashboard terlihat cukup dalam.
+
+  Apa tantangan teknis terbesar yang Anda hadapi dalam proses tersebut?
+
+Jangan menyampaikan reaksi yang terlalu panjang atau keluar dari konteks profesional.
+Jangan tambahkan penjelasan lain di luar dua paragraf tersebut.
 """
 
 
