@@ -1,0 +1,1765 @@
+alright lets start with AI folders
+
+make sure to tell me if i miss a code from a certain file
+
+
+
+asker_agent.py
+
+
+
+from agents import Agent
+
+
+
+from pydantic import BaseModel
+
+
+
+class FollowUpQuestion(BaseModel):
+
+question: str
+
+
+
+# PROMPT = (
+
+# # "Kamu adalah asisten pewawancara HR yang bertugas menanyakan pertanyaan wawancara lanjutan kepada pelamar.\n\n"
+
+# # "Input yang kamu terima terdiri dari:\n"
+
+# # "- Daftar seluruh pertanyaan wawancara yang direncanakan (question_list)\n"
+
+# # "- Ringkasan jawaban pelamar sejauh ini (summary)\n"
+
+# # "- Daftar pertanyaan yang sudah ditanyakan (answered_questions)\n\n"
+
+# # "Tugasmu:\n"
+
+# # "1. Mulailah dari kategori 'Motivasi & Tujuan'. Pilih satu pertanyaan yang belum ditanyakan.\n"
+
+# # "2. Jika semua pertanyaan dalam kategori tersebut sudah ditanyakan, lanjutkan ke kategori lain sesuai urutan yang ada di question_list.\n"
+
+# # "3. Jika pelamar menjawab 'belum tahu', 'belum pernah', atau menunjukkan bahwa dia tidak memiliki pengalaman yang cukup di topik tertentu, maka **hindari mengulang topik tersebut**.\n"
+
+# # "4. Jika pelamar memberikan jawaban positif atau menunjukkan pengalaman, kamu boleh memberikan satu pertanyaan lanjutan (elaborasi) yang relevan.\n"
+
+# # "5. Elaborasi maksimal dilakukan sebanyak 2 kali hanya di topik yang dijawab positif dan kategori Teknikal.\n"
+
+# # "6. Setelah itu, lanjut ke pertanyaan baru dari daftar.\n"
+
+# # "7. Jika semua pertanyaan sudah ditanyakan, atau tidak ada pertanyaan lanjutan yang relevan, kembalikan output berupa string **\"false\"** (tanpa tanda kutip tambahan).\n\n"
+
+# # "Output hanya berupa satu pertanyaan wawancara lanjutan yang paling sesuai, atau **\"false\"** jika tidak ada lagi.\n"
+
+# # "Jangan tambahkan penjelasan atau respons lain."
+
+# "Kamu adalah asisten pewawancara HR yang bertugas menanyakan pertanyaan wawancara lanjutan kepada pelamar secara alami dan terstruktur.",
+
+# "",
+
+# "Kamu akan menerima:",
+
+# "- `question_list`: daftar seluruh pertanyaan wawancara yang direncanakan, dikelompokkan per kategori.",
+
+# "- `summary`: ringkasan jawaban pelamar sejauh ini.",
+
+# "- `answered_questions`: daftar pertanyaan yang sudah ditanyakan sebelumnya.",
+
+# "",
+
+# "Tugasmu:",
+
+# "1. Mulailah dari kategori **Motivasi & Tujuan**. Pilih satu pertanyaan yang **belum ditanyakan**.",
+
+# "2. Jika semua pertanyaan dalam kategori tersebut sudah ditanyakan, lanjut ke kategori berikutnya dalam urutan di `question_list`.",
+
+# "3. Sebelum menyampaikan pertanyaan baru, berikan kalimat transisi atau respons singkat yang relevan berdasarkan `summary`, agar percakapan terasa lebih alami.",
+
+# "4. Jika pelamar menjawab dengan *\"belum tahu\"*, *\"belum pernah\"*, atau jawaban yang menunjukkan **kurangnya pengalaman di topik tertentu**, **hindari mengulang topik tersebut**.",
+
+# "5. Jika pelamar menunjukkan pengalaman atau memberikan jawaban positif, kamu boleh memberikan **satu pertanyaan lanjutan (elaborasi)** yang relevan dengan topik tersebut.",
+
+# "6. Elaborasi hanya boleh dilakukan maksimal 2 kali dan **hanya untuk kategori Teknikal**.",
+
+# "7. Jika tidak ada lagi pertanyaan relevan atau semuanya sudah ditanyakan, kembalikan output berupa string: `false` (tanpa tanda kutip tambahan).",
+
+# "",
+
+# "Output hanya boleh berupa **satu pertanyaan wawancara lanjutan** dalam bentuk kalimat lengkap, atau `false`.",
+
+# "**Jangan tambahkan penjelasan atau respons lain di luar pertanyaan.**"
+
+
+
+# )
+
+
+
+PROMPT = """
+
+Kamu adalah asisten pewawancara HR yang bertugas menanyakan pertanyaan wawancara lanjutan kepada pelamar secara alami dan terstruktur.
+
+
+
+Kamu akan menerima:
+
+- `question_list`: daftar seluruh pertanyaan wawancara yang direncanakan, dikelompokkan per kategori.
+
+- `summary`: ringkasan jawaban pelamar sejauh ini.
+
+- `answered_questions`: daftar pertanyaan yang sudah ditanyakan sebelumnya.
+
+
+
+Tugasmu:
+
+1. Jika `answered_questions` masih kosong, anggap ini adalah **pertanyaan pertama**.
+
+- Mulailah dengan satu kalimat **basa-basi pembuka yang sopan dan ramah**, misalnya: "Terima kasih sudah meluangkan waktu untuk wawancara ini." atau "Sebelum kita masuk lebih dalam, saya ingin mengenal motivasi Anda terlebih dahulu."
+
+- Setelah itu, lanjutkan dengan **satu pertanyaan dari kategori Motivasi & Tujuan**.
+
+2. Jika `answered_questions` tidak kosong:
+
+- Mulailah dari kategori **Motivasi & Tujuan**, pilih satu pertanyaan yang **belum ditanyakan**.
+
+- Jika semua pertanyaan dalam kategori tersebut sudah ditanyakan, lanjut ke kategori berikutnya dalam urutan di `question_list`.
+
+3. Sebelum menyampaikan pertanyaan baru, berikan satu kalimat transisi atau tanggapan singkat yang sesuai dengan `summary` untuk membuat percakapan terasa alami.
+
+4. Jika pelamar menjawab dengan *"belum tahu"*, *"belum pernah"*, atau menunjukkan **kurangnya pengalaman di suatu topik**, hindari mengulang atau mengeksplorasi topik itu.
+
+5. Jika pelamar menunjukkan pengalaman atau memberikan jawaban positif:
+
+- Kamu boleh memberikan **satu pertanyaan lanjutan (elaborasi)** yang relevan.
+
+- Elaborasi **hanya boleh diberikan maksimal 2 kali** dan hanya untuk kategori **Teknikal**.
+
+6. Jika tidak ada lagi pertanyaan yang bisa diajukan (semuanya sudah ditanyakan), maka cukup kembalikan output berupa string: `false` (tanpa tanda kutip tambahan).
+
+
+
+Output harus berupa **satu pertanyaan wawancara lanjutan** dalam kalimat lengkap, atau `false`.
+
+**Jangan tambahkan penjelasan atau teks lain di luar kalimat pertanyaan.**
+
+"""
+
+
+
+
+
+
+
+asker_agent = Agent(
+
+name="AskerAgent",
+
+instructions=PROMPT,
+
+# model="gpt-4.1-mini-2025-04-14",
+
+model="litellm/gemini/gemini-2.5-pro",
+
+output_type=FollowUpQuestion,
+
+)
+
+
+
+
+
+question_agent.py
+
+from pydantic import BaseModel
+
+from typing import List, Dict
+
+from agents import Agent
+
+
+
+class QuestionItem(BaseModel):
+
+id: int
+
+question: str
+
+
+
+class InterviewCategory(BaseModel):
+
+category_name: str
+
+questions: List[QuestionItem]
+
+
+
+class InterviewQuestionList(BaseModel):
+
+categories: List[InterviewCategory]
+
+
+
+PROMPT = (
+
+"Kamu adalah asisten pewawancara HR. Berdasarkan data pelamar yang diberikan, buatlah "
+
+"daftar pertanyaan wawancara yang relevan dengan posisi pekerjaan yang dilamar. "
+
+"Selalu menggunakan bahasa Indonesia. "
+
+"Input yang kamu terima terdiri dari: deskripsi pekerjaan dan skill yang dibutuhkan, nama perusahaan, dan deskripsi perusahaan\n"
+
+"Berdasarkan deskripsi pekerjaan berikut, buatlah daftar pertanyaan wawancara yang merata dalam kategori:\n"
+
+"- Keterampilan Teknis\n"
+
+"- Soft Skills\n"
+
+"- Kerjasama Tim\n"
+
+"- Motivasi & Tujuan\n"
+
+"- Kesesuaian Budaya Kerja\n"
+
+"- Pemahaman Tentang Perusahaan\n"
+
+"Mohon berikan 2-3 pertanyaan untuk masing-masing kategori, dengan memastikan distribusi yang seimbang. "
+
+"Format output harus berupa JSON dengan struktur berikut:\n"
+
+"{\n"
+
+" \"Technical Skills\": [\n"
+
+" {\"id\": 1, \"question\": \"Pertanyaan teknis 1\"},\n"
+
+" {\"id\": 2, \"question\": \"Pertanyaan teknis 2\"}\n"
+
+" ],\n"
+
+" \"Soft Skills\": [\n"
+
+" {\"id\": 1, \"question\": \"Pertanyaan soft skill 1\"},\n"
+
+" {\"id\": 2, \"question\": \"Pertanyaan soft skill 2\"}\n"
+
+" ],\n"
+
+" ...\n"
+
+"}"
+
+)
+
+
+
+interview_agent = Agent(
+
+name="InterviewQuestionAgent",
+
+instructions=PROMPT,
+
+# model="gpt-4.1-mini-2025-04-14",
+
+model="litellm/gemini/gemini-2.5-pro",
+
+output_type=InterviewQuestionList,
+
+)
+
+
+
+review_agent.py
+
+from pydantic import BaseModel
+
+
+
+from agents import Agent
+
+
+
+class Review(BaseModel):
+
+is_finish: bool
+
+
+
+# REVIEW_PROMPT = (
+
+# "Kamu adalah reviewer HR yang bertugas mengevaluasi apakah sesi wawancara sudah cukup lengkap dan dapat dihentikan.\n\n"
+
+# "Kamu akan diberikan:\n"
+
+# "- Daftar seluruh pertanyaan wawancara yang direncanakan (terstruktur dalam kategori)\n"
+
+# "- Daftar pertanyaan yang sudah dijawab pelamar\n"
+
+# "- Ringkasan jawaban pelamar sejauh ini\n\n"
+
+# "Tugasmu:\n"
+
+# "1. Identifikasi apakah mayoritas kategori sudah memiliki minimal satu pertanyaan yang dijawab dengan baik.\n"
+
+# "2. Evaluasi distribusi jawaban: Jika hanya satu kategori yang dominan atau sebagian besar kategori belum tersentuh, jawabannya belum cukup.\n"
+
+# "3. Jika sebagian besar kategori sudah terwakili secara merata dan ringkasan mencerminkan pemahaman yang baik, maka wawancara boleh dihentikan.\n\n"
+
+# "Outputkan hasil akhir dalam format JSON:\n"
+
+# "{ \"is_finish\": true|false }\n"
+
+# )
+
+
+
+instructions = """
+
+Kamu adalah reviewer HR yang bertugas mengevaluasi apakah sesi wawancara sudah cukup lengkap dan dapat dihentikan.
+
+
+
+Kamu akan diberikan:
+
+- Daftar seluruh pertanyaan wawancara yang direncanakan (dikelompokkan dalam kategori).
+
+- Daftar pertanyaan yang sudah dijawab pelamar.
+
+- Ringkasan jawaban pelamar sejauh ini.
+
+
+
+Tugasmu:
+
+1. Periksa apakah setiap kategori dalam daftar pertanyaan telah memiliki **setidaknya satu pertanyaan** yang dijawab oleh pelamar.
+
+2. Evaluasi kualitas jawaban dari ringkasan. Pastikan jawaban yang diberikan mencerminkan pemahaman yang baik dan relevan.
+
+3. Jika ada kategori yang **belum disentuh sama sekali**, atau mayoritas jawaban berasal hanya dari satu kategori, maka wawancara **belum cukup**.
+
+4. Jika semua kategori penting telah terwakili dengan **distribusi yang cukup merata**, dan pelamar menjawab dengan baik dan jelas, maka wawancara boleh dihentikan.
+
+
+
+Outputkan hasil akhir dalam format JSON, hanya berisi satu field:
+
+{ "is_finish": true } jika wawancara sudah cukup, atau
+
+{ "is_finish": false } jika belum.
+
+
+
+Jangan berikan penjelasan tambahan apa pun di luar format JSON tersebut.
+
+"""
+
+
+
+review_agent = Agent(
+
+name="ReviewAgent",
+
+instructions=instructions,
+
+# model="gpt-4.1-mini-2025-04-14",
+
+model="litellm/gemini/gemini-2.5-pro",
+
+output_type=Review,
+
+)
+
+
+
+summary_agent.py
+
+from agents import Agent
+
+from pydantic import BaseModel
+
+
+
+class Summary(BaseModel):
+
+summary: str
+
+
+
+PROMPT = (
+
+"Kamu adalah asisten pewawancara HR.\n"
+
+"Tugasmu adalah membuat ringkasan dari jawaban pelamar.\n\n"
+
+"Kamu akan diberikan:\n"
+
+"- Pertanyaan wawancara yang diberikan ke pelamar\n"
+
+"- Ringkasan jawaban sebelumnya (jika ada)\n"
+
+"- Jawaban terbaru dari pelamar\n\n"
+
+"Gabungkan keduanya menjadi satu ringkasan yang koheren **tanpa menghilangkan informasi penting**.\n"
+
+"Jika pelamar tidak bisa menjawab atau jawabannya tidak sesuai dengan pertanyaan, mohon tulis secara eksplisit dalam ringkasan.\n"
+
+"Ringkasan ini akan digunakan untuk mengevaluasi apakah jawaban pelamar sudah memenuhi target yang diharapkan.\n"
+
+"Pastikan hasil ringkasan tetap ringkas namun mencakup poin-poin utama yang relevan."
+
+)
+
+
+
+summary_agent = Agent(
+
+name="SummaryAgent",
+
+instructions=PROMPT,
+
+# model="gpt-4.1-mini-2025-04-14",
+
+model="litellm/gemini/gemini-2.5-pro",
+
+output_type=Summary,
+
+)
+
+
+
+asker_controller.py
+
+from agent.asker_agent import asker_agent
+
+from flask import jsonify
+
+from agents import Runner
+
+
+
+async def ask_questions():
+
+"""
+
+Generate interview questions based on the applicant's data.
+
+
+Args:
+
+data_pelamar (str): The applicant's data in string format.
+
+
+Returns:
+
+list: A list of generated interview questions and their rationales.
+
+"""
+
+
+
+list_pertanyaan = [
+
+{
+
+"question": "Bisakah Anda ceritakan pengalaman Anda dalam membuat dashboard data menggunakan React dan Bootstrap?",
+
+"rationale": "Pertanyaan ini bertujuan untuk memahami pengalaman langsung Reza dalam menggunakan teknologi yang relevan dengan posisi yang dilamar, serta memahami kemampuan dan kedalaman pengalamannya di bidang front-end."
+
+},
+
+{
+
+"question": "Bagaimana Anda mengatasi tantangan ketika berintegrasi dengan REST API dalam proyek-proyek Anda?",
+
+"rationale": "Pertanyaan ini untuk menilai kemampuan masalah dan pengalaman Reza dalam mengelola komunikasi antara frontend dan backend, yang penting dalam pengembangan aplikasi modern."
+
+},
+
+{
+
+"question": "Apa yang membuat Anda tertarik untuk bergabung sebagai Frontend Developer di perusahaan kami?",
+
+"rationale": "Pertanyaan ini membantu menilai motivasi dan kecocokan Reza dengan perusahaan serta posisi yang dilamar."
+
+},
+
+{
+
+"question": "Apa fitur atau aspek dari Vite dan Tailwind yang menurut Anda paling membantu dalam pengembangan frontend?",
+
+"rationale": "Pertanyaan ini untuk memahami pengetahuan Reza tentang alat yang digunakannya dan bagaimana dia memanfaatkannya untuk meningkatkan produktivitas dan kualitas kerjanya."
+
+}
+
+]
+
+data_ringkasan = "Reza memiliki pengalaman membangun dashboard data menggunakan React dan Bootstrap, terutama untuk menampilkan data yang dinamis dan responsif. Dalam proses tersebut, ia terbiasa menangani integrasi REST API dengan menangani error handling dan loading state secara efisien. Reza tertarik bergabung sebagai Frontend Developer di perusahaan karena tertarik dengan budaya kolaboratif dan proyek-proyek berdampak yang perusahaan jalankan. Ia merasa Vite sangat membantu karena waktu build yang cepat dan dukungan modul modern, sementara Tailwind mempermudah styling yang konsisten tanpa harus banyak menulis CSS manual."
+
+
+
+list_pertanyaan_str = "\n".join(
+
+[f"Q: {q['question']}\nA: {q['rationale']}" for q in list_pertanyaan]
+
+)
+
+input_prompt = f"{list_pertanyaan_str}\n\nRingkasan jawaban pelamar:\n{data_ringkasan}"
+
+
+result = await Runner.run(asker_agent, input_prompt)
+
+questions = result.final_output.question
+
+return jsonify(questions)
+
+
+
+chat_controller.py
+
+import time
+
+from flask import jsonify, request
+
+from flow.flow import (
+
+a_generate_questions,
+
+b_create_summary,
+
+c_review_summary,
+
+d_ask_questions
+
+)
+
+import tools.tools as tools
+
+
+
+async def chat(id):
+
+"""
+
+Chat with the applicant based on the interview data.
+
+
+Args:
+
+id (str): The ID of the interview.
+
+
+Returns:
+
+str: The chat response.
+
+"""
+
+start_time = time.time()
+
+data = request.get_json()
+
+
+
+if not data:
+
+return jsonify({"message": "No data provided."}), 400
+
+
+
+chat_input = data.get("chat", "")
+
+
+
+# await c_review_summary(id)
+
+
+
+status = tools.get_status_interview(id)
+
+
+
+if status == "finished":
+
+return jsonify({
+
+"message": "Interview has already finished.",
+
+"status": status,
+
+"data": chat_input
+
+})
+
+
+
+if status == "not_started":
+
+await a_generate_questions(id)
+
+question = await d_ask_questions(id, start_time=start_time)
+
+return jsonify({
+
+"message": "Interview started with first question.",
+
+"status": "in_progress",
+
+"data": question
+
+})
+
+
+
+await b_create_summary(id, chat_input)
+
+await c_review_summary(id)
+
+is_finish = tools.get_status_interview(id)
+
+if is_finish == "finished":
+
+# tools.post_status_interview(id, "finished")
+
+return jsonify({
+
+"message": "Interview has finished.",
+
+"status": "finished123",
+
+"data": is_finish
+
+})
+
+
+
+question = await d_ask_questions(id, start_time=start_time)
+
+return jsonify({
+
+"message": "Interview is in progress.",
+
+"status": "in_progress",
+
+"data": question
+
+})
+
+
+
+index_controller.py
+
+from flask import Blueprint, jsonify
+
+
+
+def index():
+
+return jsonify({
+
+'message': 'Hello, World!'
+
+})
+
+
+
+question_controller.py
+
+from agent.question_agent import interview_agent
+
+from flask import jsonify
+
+from agents import Runner
+
+
+
+async def generate_questions():
+
+"""
+
+Generate interview questions based on the applicant's data.
+
+
+Args:
+
+data_pelamar (str): The applicant's data in string format.
+
+
+Returns:
+
+list: A list of generated interview questions and their rationales.
+
+"""
+
+
+
+data_pelamar = """
+
+Nama: Reza
+
+Posisi yang dilamar: Frontend Developer
+
+Ringkasan: Mahasiswa Teknik Komputer dengan pengalaman membuat dashboard data menggunakan React dan Bootstrap.
+
+Sudah pernah mengerjakan beberapa project frontend menggunakan REST API, Vite, dan Tailwind.
+
+"""
+
+result = await Runner.run(interview_agent, data_pelamar)
+
+questions = [q.dict() for q in result.final_output.questions]
+
+return jsonify(questions)
+
+
+
+review_controller.py
+
+from agents import Runner
+
+from flask import jsonify
+
+from agent.review_agent import review_agent
+
+
+
+async def review_summary():
+
+
+list_pertanyaan = [
+
+{
+
+"question": "Bisakah Anda ceritakan pengalaman Anda dalam membuat dashboard data menggunakan React dan Bootstrap?",
+
+"rationale": "Pertanyaan ini bertujuan untuk memahami pengalaman langsung Reza dalam menggunakan teknologi yang relevan dengan posisi yang dilamar, serta memahami kemampuan dan kedalaman pengalamannya di bidang front-end."
+
+},
+
+{
+
+"question": "Bagaimana Anda mengatasi tantangan ketika berintegrasi dengan REST API dalam proyek-proyek Anda?",
+
+"rationale": "Pertanyaan ini untuk menilai kemampuan masalah dan pengalaman Reza dalam mengelola komunikasi antara frontend dan backend, yang penting dalam pengembangan aplikasi modern."
+
+},
+
+{
+
+"question": "Apa yang membuat Anda tertarik untuk bergabung sebagai Frontend Developer di perusahaan kami?",
+
+"rationale": "Pertanyaan ini membantu menilai motivasi dan kecocokan Reza dengan perusahaan serta posisi yang dilamar."
+
+},
+
+{
+
+"question": "Apa fitur atau aspek dari Vite dan Tailwind yang menurut Anda paling membantu dalam pengembangan frontend?",
+
+"rationale": "Pertanyaan ini untuk memahami pengetahuan Reza tentang alat yang digunakannya dan bagaimana dia memanfaatkannya untuk meningkatkan produktivitas dan kualitas kerjanya."
+
+}
+
+]
+
+data_ringkasan = "Reza memiliki pengalaman membangun dashboard menggunakan React dan Bootstrap dengan fokus pada tampilan responsif. Ia juga menyukai penggunaan Tailwind karena mempercepat proses styling dan membuat tampilan lebih konsisten."
+
+
+
+list_pertanyaan_str = "\n".join(
+
+[f"Q: {q['question']}\nA: {q['rationale']}" for q in list_pertanyaan]
+
+)
+
+
+
+input_prompt = f"{list_pertanyaan_str}\n\nRingkasan jawaban pelamar:\n{data_ringkasan}"
+
+
+
+result = await Runner.run(review_agent, input_prompt)
+
+review = result.final_output.is_finish
+
+return jsonify(review)
+
+
+
+summary_controller.py
+
+from agent.summary_agent import summary_agent
+
+from agents import Runner
+
+from flask import request
+
+
+
+async def summarize_answer() -> str:
+
+"""
+
+Summarize the applicant's answer based on the previous summary and the new answer.
+
+
+
+Args:
+
+previous_summary (str): The previous summary of the applicant's answers.
+
+answer (str): The new answer provided by the applicant.
+
+
+
+Returns:
+
+str: The updated summary of the applicant's answers.
+
+"""
+
+data = request.get_json()
+
+previous_summary = data.get("previous_summary", "")
+
+answer = data.get("answer", "")
+
+if not answer.strip():
+
+return "Previous summary and answer are required."
+
+# return data
+
+
+
+summary = f"Ringkasan sebelumnya: {previous_summary}\n\nJawaban baru: {answer}"
+
+
+
+result = await Runner.run(summary_agent, summary)
+
+return result.final_output.summary
+
+
+
+flow.py
+
+from tools import tools
+
+import time
+
+
+
+from models.asker_model import ask_questions
+
+from models.question_model import generate_questions
+
+from models.summary_model import summarize_answer
+
+from models.review_model import review_summary
+
+
+
+
+
+async def a_generate_questions(id):
+
+data_interview = tools.get_data_job_str(id)
+
+list_question = await generate_questions(data_interview)
+
+tools.post_interview_questions(id, list_question)
+
+tools.post_status_interview(id, "in_progress")
+
+pass
+
+
+
+async def b_create_summary(id, input_data):
+
+tools.post_log_interview(id, input_data, is_user=True)
+
+data_ringkasan = tools.get_summary_interview(id)
+
+data_ringkasan = data_ringkasan['data']['summary']
+
+last_question = tools.get_last_question_log_interview(id) or ""
+
+
+
+summary = await summarize_answer(input_data, data_ringkasan, last_question)
+
+tools.post_summary_interview(id, summary)
+
+
+
+async def c_review_summary(id):
+
+list_pertanyaan = tools.get_interview_questions(id)
+
+data_ringkasan = tools.get_summary_interview(id)
+
+data_ringkasan_result = data_ringkasan['data']['summary']
+
+answered_questions = tools.get_answered_questions(id)
+
+review = await review_summary(list_pertanyaan=list_pertanyaan, data_ringkasan=data_ringkasan_result, list_answered_question=answered_questions)
+
+if review == True:
+
+tools.post_status_interview(id, "finished")
+
+return "Interview has finished."
+
+return "Interview is still in progress, more questions may be needed."
+
+
+
+
+
+
+
+async def d_ask_questions(id, start_time):
+
+list_pertanyaan = tools.get_interview_questions(id)
+
+data_ringkasan = tools.get_summary_interview(id)
+
+data_ringkasan = data_ringkasan['data']['summary']
+
+answered_questions = tools.get_answered_questions(id)
+
+questions = await ask_questions(list_pertanyaan, data_ringkasan,answered_questions)
+
+elapsed_time = time.time() - start_time
+
+tools.post_log_interview(id, questions, is_user=False, elapsed_time=elapsed_time)
+
+tools.push_answered_questions(id, questions)
+
+return questions
+
+
+
+asker_model.py
+
+from agent.asker_agent import asker_agent
+
+from flask import jsonify
+
+from agents import Runner
+
+
+
+import tools.tools as tools
+
+
+
+async def ask_questions(list_pertanyaan, data_ringkasan: str, list_answered_question) -> list:
+
+"""
+
+Generate interview questions based on the applicant's data.
+
+
+Args:
+
+data_pelamar (str): The applicant's data in string format.
+
+
+Returns:
+
+list: A list of generated interview questions and their rationales.
+
+"""
+
+list_pertanyaan_str =tools.list_question_to_string(list_pertanyaan)
+
+list_answered_question_str = "\n".join(list_answered_question) if list_answered_question else ""
+
+input_prompt = f"Daftar pertaynyaan yang perlu ditanyakan:\n{list_pertanyaan_str}\n\nRingkasan jawaban pelamar:\n{data_ringkasan}\n\nDaftar pertanyaan yang sudah dijawab:\n{list_answered_question_str}"
+
+
+result = await Runner.run(asker_agent, input_prompt)
+
+questions = result.final_output.question
+
+return questions
+
+
+
+question_model.py
+
+from agent.question_agent import interview_agent
+
+from flask import jsonify
+
+from agents import Runner
+
+
+
+async def generate_questions(data_pelamar: str) -> list:
+
+"""
+
+Generate interview questions based on the applicant's data.
+
+
+Args:
+
+data_pelamar (str): The applicant's data in string format.
+
+
+Returns:
+
+list: A list of generated interview questions and their rationales.
+
+"""
+
+
+
+result = await Runner.run(interview_agent, data_pelamar)
+
+questions = [q.dict() for q in result.final_output.categories]
+
+return questions
+
+
+
+review_model.py
+
+from agents import Runner
+
+from flask import jsonify
+
+from agent.review_agent import review_agent
+
+import tools.tools as tools
+
+import json
+
+
+
+async def review_summary(list_pertanyaan, list_answered_question, data_ringkasan: str) -> bool:
+
+
+"""
+
+Review the summary of the applicant's answers based on the interview questions.
+
+"""
+
+
+# Debug: Print data yang diterima
+
+# print(f"[DEBUG] list_pertanyaan: {json.dumps(list_pertanyaan, indent=2, ensure_ascii=False)}")
+
+# print(f"[DEBUG] list_answered_question: {json.dumps(list_answered_question, indent=2, ensure_ascii=False)}")
+
+# print(f"[DEBUG] data_ringkasan: {data_ringkasan}")
+
+
+# Validasi data
+
+if not list_pertanyaan:
+
+print("[ERROR] list_pertanyaan is empty!")
+
+return False
+
+
+if not list_answered_question:
+
+print("[WARNING] list_answered_question is empty, interview should continue")
+
+return False
+
+
+input_prompt = f"""
+
+Daftar seluruh pertanyaan wawancara (dikelompokkan per kategori):
+
+{json.dumps(list_pertanyaan, indent=2, ensure_ascii=False)}
+
+
+
+Daftar pertanyaan yang sudah dijawab pelamar:
+
+{json.dumps(list_answered_question, indent=2, ensure_ascii=False)}
+
+
+
+Ringkasan jawaban pelamar:
+
+{data_ringkasan}
+
+"""
+
+
+print(f"[DEBUG] Sending to agent: {input_prompt[:500]}...")
+
+
+
+try:
+
+result = await Runner.run(review_agent, input_prompt)
+
+review = result.final_output.is_finish
+
+print(f"[DEBUG] Agent result: {review}")
+
+return review
+
+except Exception as e:
+
+print(f"[ERROR] Agent failed: {e}")
+
+return False
+
+
+
+summary_model.py
+
+from agent.summary_agent import summary_agent
+
+from agents import Runner
+
+
+
+
+
+async def summarize_answer(previous_summary, data, last_question) -> str:
+
+"""
+
+Summarize the applicant's answer based on the previous summary and the new answer.
+
+
+
+Args:
+
+previous_summary (str): The previous summary of the applicant's answers.
+
+answer (str): The new answer provided by the applicant.
+
+
+
+Returns:
+
+str: The updated summary of the applicant's answers.
+
+"""
+
+
+summary = f"Ringkasan sebelumnya: {previous_summary}\n\nJawaban baru: {data} \n\n pertanyaan: {last_question}"
+
+
+
+result = await Runner.run(summary_agent, summary)
+
+return result.final_output.summary
+
+
+
+routes.py
+
+from flask import Blueprint, render_template, request, redirect, url_for
+
+
+
+from controller.question_controller import generate_questions
+
+from controller.asker_controller import ask_questions
+
+from controller.summary_controller import summarize_answer
+
+from controller.review_controller import review_summary
+
+from controller.chat_controller import chat
+
+from controller.index_controller import index
+
+api = Blueprint('ai',__name__, url_prefix='/ai')
+
+
+
+
+
+# api.route('/question', methods=['GET'])(generate_questions)
+
+# api.route('/ask', methods=['GET'])(ask_questions)
+
+# api.route('/summary', methods=['POST'])(summarize_answer)
+
+# api.route('/review', methods=['GET'])(review_summary)
+
+api.route('/chat/<id>', methods=['POST'])(chat)
+
+api.route('/', methods=['GET'])(index)
+
+# api.route('/test', methods=['GET'])(index)
+
+
+
+tools.py
+
+import requests
+
+import os
+
+
+
+import os
+
+
+
+backend_host = os.environ.get("BACKEND", "localhost")
+
+backend_port = os.environ.get("BACKEND_PORT", "5000")
+
+
+
+base_url = f"http://{backend_host}:{backend_port}"
+
+
+
+def get_data_interview(id):
+
+url = f"{base_url}/api/interview/{id}"
+
+response = requests.get(url)
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+def get_job_id(id):
+
+data = get_data_interview(id)
+
+data = data['data']['job_id']
+
+return data
+
+
+
+def get_data_job(id):
+
+job_url = get_job_id(id)
+
+url = f"{base_url}/api/jobs/id/{job_url}"
+
+response = requests.get(url)
+
+
+
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+def get_data_company(id):
+
+url = f"{base_url}/api/company/id/{id}"
+
+response = requests.get(url)
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+
+def get_data_job_str(id):
+
+data = get_data_job(id)
+
+if data:
+
+job_desc = data['data']['description']
+
+skills = data['data']['skills']
+
+company_id = data['data']['company_id']
+
+company_data = get_data_company(company_id)
+
+company_name = company_data['data']['name'] if company_data else "Unknown Company"
+
+company_desc = company_data['data']['description'] if company_data else "No description available"
+
+
+
+skills_str = ', '.join(skills)
+
+job_str = f"Deskripsi Pekerjaan: {job_desc}\n\nKeterampilan yang Diperlukan: {skills_str}\n\nInformasi Perusahaan: {company_name}\n{company_desc} \n\n company_data: {company_data} \n\n company_id: {company_id} "
+
+return job_str
+
+
+
+# return data
+
+# return job_str
+
+else:
+
+print("Error: Unable to fetch job data.")
+
+return None
+
+
+
+def get_status_interview(id):
+
+data = get_data_interview(id)
+
+
+
+data = data['data']['status']
+
+return data
+
+
+
+def post_status_interview(id, status):
+
+url = f"{base_url}/api/interview/{id}"
+
+payload = {
+
+"status": status
+
+}
+
+response = requests.put(url, json=payload)
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+def get_interview_questions(id):
+
+data = get_data_interview(id)
+
+if data:
+
+questions = data['data']['list_question']
+
+return questions
+
+else:
+
+print("Error: Unable to fetch interview questions.")
+
+return None
+
+
+
+def post_interview_questions(id, questions):
+
+url = f"{base_url}/api/interview/{id}"
+
+payload = {
+
+"list_question": questions
+
+}
+
+response = requests.put(url, json=payload)
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+def get_log_interview(id):
+
+url = f"{base_url}/api/interview/log/{id}"
+
+response = requests.get(url)
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+def get_last_question_log_interview(id):
+
+data = get_log_interview(id)
+
+if data and 'data' in data and 'chat' in data['data']:
+
+data = data['data']['chat']
+
+
+
+last_question = next(
+
+(msg['message'] for msg in reversed(data) if msg['sender'] == 'assistant'),
+
+)
+
+return last_question
+
+return None
+
+
+
+
+def post_log_interview(id, log, is_user=False, elapsed_time=None):
+
+"""
+
+Post log to the interview with the given ID.
+
+Args:
+
+id (str): The ID of the interview.
+
+log (str): The log message to be posted.
+
+is_user (bool): Flag to indicate if the log is from the user.
+
+"""
+
+url = f"{base_url}/api/interview/log/{id}"
+
+payload = {
+
+"sender": "user" if is_user else "assistant",
+
+"message": log,
+
+"elapsed_time": elapsed_time
+
+}
+
+print(f"Posting log to {url} with payload: {payload}")
+
+response = requests.put(url, json=payload)
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+def get_summary_interview(id):
+
+url = f"{base_url}/api/interview/memory/{id}"
+
+response = requests.get(url)
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+
+
+
+
+def post_summary_interview(id, summary):
+
+url = f"{base_url}/api/interview/memory/{id}"
+
+payload = {
+
+"summary": summary
+
+}
+
+response = requests.put(url, json=payload)
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+
+def push_answered_questions(id, questions):
+
+url = f"{base_url}/api/interview/memory/{id}/push"
+
+payload = {
+
+"answered_question": questions
+
+}
+
+response = requests.put(url, json=payload)
+
+if response.status_code == 200:
+
+return response.json()
+
+else:
+
+print(f"Error: {response.status_code}")
+
+return None
+
+
+def get_answered_questions(id):
+
+data = get_summary_interview(id)
+
+if data and 'data' in data and 'answered_question' in data['data']:
+
+answered_questions = data['data']['answered_question']
+
+return answered_questions
+
+else:
+
+# print("Error: Unable to fetch answered questions.")
+
+return None
+
+
+def list_question_to_string(list_question):
+
+result = ""
+
+for category in list_question:
+
+result += f"Kategori: {category['category_name']}\n"
+
+for idx, q in enumerate(category["questions"], start=1):
+
+result += f"{idx}. {q['question']}\n"
+
+result += "\n"
+
+return result
+
+
+
+.env
+
+GEMINI_API_KEY=
+
+
+
+app.py
+
+import os
+
+from dotenv import load_dotenv
+
+from flask import blueprints
+
+from flask import Flask
+
+from flask_cors import CORS
+
+
+
+from routes.routes import api
+
+
+
+def create_app():
+
+app = Flask(__name__)
+
+app.url_map.strict_slashes = False
+
+
+
+app.register_blueprint(api)
+
+CORS(app, resources={r"/*": {"origins": "*"}})
+
+return app
+
+
+
+if __name__ == "__main__":
+
+load_dotenv()
+
+
+app = create_app()
+
+app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 5050)), debug=True)
+
+
+
+main.py
+
+import os
+
+import asyncio
+
+from dotenv import load_dotenv
+
+
+
+from flow.flow import (
+
+a_generate_questions,
+
+b_create_summary,
+
+c_review_summary,
+
+d_ask_questions
+
+)
+
+
+
+import tools.tools as tools
+
+
+
+from models.question_model import generate_questions
+
+
+
+from agent.question_agent import interview_agent
+
+
+
+from agents import Runner
+
+# Load environment variables from .env file
+
+load_dotenv()
+
+
+
+
+
+
+
+async def main():
+
+
+
+print(await c_review_summary("687bd1ef66018c9885d8156a"))
+
+
+
+# list_pertanyaan = tools.get_interview_questions("687ba1c466018c9885d81564")
+
+# data_ringkasan = tools.get_summary_interview("687ba1c466018c9885d81564")
+
+# data_ringkasan_result = data_ringkasan['data']['summary']
+
+# answered_questions = tools.get_answered_questions("687ba1c466018c9885d81564")
+
+
+
+# print(f"List Pertanyaan: {list_pertanyaan}")
+
+# print(f"Data Ringkasan: {data_ringkasan_result}")
+
+# print(f"Answered Questions: {answered_questions}")
+
+pass
+
+
+
+asyncio.run(main())
+
+
+
+# import tools.tools as tools
+
+
+
+# def main():
+
+# # print(tools.get_data_)
+
+# # print(tools.get_data_job('68493a93d032d9778a22eab8'))
+
+# print(tools.get_data_job_str('687b124603281026efe96e04'))
+
+
+
+# # print(tools.get_data_company('687a092f03281026efe96dfd'))
+
+# if __name__ == "__main__":
+
+# main()
+
+
+
+requirements.txt
+
+openai-agents==0.0.15
+
+openai-agents[litellm]
+
+Flask[async]==3.1.1
+
+Flask_Cors==5.0.0
+
+pydantic==2.11.7
+
+python-dotenv==1.1.0
+
+Requests==2.32.4

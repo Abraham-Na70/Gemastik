@@ -1,0 +1,8033 @@
+jobs_dummy.json
+
+
+
+{
+
+"message": "Data berhasil di raih",
+
+"data": [
+
+{
+
+"_id": {
+
+"$oid": "682accf97d49457b75d440cb"
+
+},
+
+"title": "Junior Front End Engineer (React/Next Js)",
+
+"description": "Deskripsi pekerjaan Junior Front End Engineer (React/Next Js) Synapsis.id:\n\nDesign, develop, and build highly scalable, cross-platform, and high-performance web applications using TypeScript, React.js, and Next.js. Collaborate with project managers, UI/UX designers, and backend engineers to translate business requirements into technical solutions. Implement responsive, reusable, and accessible UI components that ensure a consistent user experience across different devices and browsers. Apply modern design patterns, coding principles, and best practices to produce clean, maintainable, and scalable code. Optimize web applications for speed, scalability, and accessibility. Write clean, maintainable, and well-documented code following best practices and coding standards. Ensure seamless integration between frontend components and backend services, working closely with backend engineers. Participate in code reviews, debugging, and troubleshooting to maintain high code quality and system stability.\n\nJob Requirements: Graduate from Bachelor, Diploma 3, or Diploma 4 degree from IT or other related majors. Minimum 1 year of experience as a Front End Engineer or similar role with strong proficiency in TypeScript. Experience with NextJs and ReactJs. Understanding of responsive website concepts and user-friendly interface. Attention to detail and proficiency in HTML5 and CSS3. Experience with state management libraries such as Zustand or Redux. Familiarity with component libraries like Ant Design (Antd) or Mantine UI. Able to use RESTful APIs, RSS (XML & JSON), and WebSocket. Experience with version control systems like Git. Ability to slice UI/UX designs into responsive web applications with self styling code and API integration is a plus. Knowledge of PWA development and Agile methodologies is an advantage.\n\nPlacement options: Halim, East Jakarta; Cilandak, South Jakarta (Alamanda Office Tower 11th Floor); Umbulharjo, Yogyakarta.",
+
+"skills": [
+
+"Frontend Development",
+
+"Software Development",
+
+"React.js",
+
+"TypeScript",
+
+"JavaScript"
+
+],
+
+"company_id": "68273fe5af9867c6e8268074"
+
+},
+
+{
+
+"_id": {
+
+"$oid": "682accf97d49457b75d440cc"
+
+},
+
+"title": "Backend Developer (Node.js/Go)",
+
+"description": "Kami mencari Backend Developer berpengalaman untuk bergabung dengan tim kami. Anda akan bertanggung jawab untuk mendesain, mengembangkan, dan memelihara API RESTful yang scalable dan efisien. Diperlukan pemahaman yang kuat tentang database (SQL/NoSQL) dan arsitektur microservices. Pengalaman dengan cloud platform (AWS/GCP) adalah nilai tambah.\n\nPersyaratan: Pendidikan S1 di bidang Ilmu Komputer atau setara. Pengalaman minimal 2 tahun sebagai Backend Developer. Mahir dengan Node.js atau Go. Terbiasa dengan PostgreSQL atau MongoDB. Memahami konsep CI/CD dan pengujian unit/integrasi.",
+
+"skills": [
+
+"Backend Development",
+
+"Node.js",
+
+"Go",
+
+"RESTful API",
+
+"MongoDB",
+
+"PostgreSQL"
+
+],
+
+"company_id": "68273fe5af9867c6e8268075"
+
+},
+
+{
+
+"_id": {
+
+"$oid": "682accf97d49457b75d440cd"
+
+},
+
+"title": "UI/UX Designer",
+
+"description": "Dicari UI/UX Designer yang kreatif dan bersemangat untuk menciptakan pengalaman pengguna yang intuitif dan menarik. Anda akan bekerja sama dengan tim produk dan engineering untuk menerjemahkan kebutuhan pengguna menjadi desain yang indah dan fungsional. Portofolio adalah kunci!\n\nPersyaratan: Pengalaman minimal 1 tahun di bidang UI/UX Design. Mahir menggunakan tools desain seperti Figma, Sketch, atau Adobe XD. Memahami prinsip-prinsip desain interaksi, usability, dan accessibility. Mampu membuat wireframe, prototype, dan user flow. Komunikasi yang baik dan kemampuan bekerja dalam tim.",
+
+"skills": [
+
+"UI Design",
+
+"UX Design",
+
+"Figma",
+
+"Prototyping",
+
+"User Research",
+
+"Design Thinking"
+
+],
+
+"company_id": "68273fe5af9867c6e8268076"
+
+},
+
+{
+
+"_id": {
+
+"$oid": "682accf97d49457b75d440ce"
+
+},
+
+"title": "Data Scientist (Machine Learning)",
+
+"description": "Kami mencari Data Scientist yang berdedikasi dengan fokus pada Machine Learning untuk menganalisis dataset besar, membangun model prediktif, dan memberikan wawasan yang dapat ditindaklanjuti. Anda akan bekerja pada berbagai proyek yang berdampak langsung pada produk kami.\n\nPersyaratan: Gelar S2/S3 di bidang Ilmu Komputer, Statistika, Matematika, atau bidang terkait. Pengalaman minimal 2 tahun dalam Machine Learning. Mahir dengan Python (Pandas, NumPy, Scikit-learn, TensorFlow/PyTorch). Pengalaman dengan SQL dan bekerja dengan database skala besar. Kemampuan komunikasi dan presentasi yang kuat.",
+
+"skills": [
+
+"Data Science",
+
+"Machine Learning",
+
+"Python",
+
+"SQL",
+
+"Deep Learning",
+
+"Statistical Analysis"
+
+],
+
+"company_id": "68273fe5af9867c6e8268074"
+
+},
+
+{
+
+"_id": {
+
+"$oid": "682accf97d49457b75d440cf"
+
+},
+
+"title": "Mobile Developer (Flutter)",
+
+"description": "Bergabunglah dengan tim kami sebagai Mobile Developer yang mahir Flutter. Anda akan bertanggung jawab untuk mengembangkan dan memelihara aplikasi mobile cross-platform yang inovatif untuk Android dan iOS. Pengalaman dengan integrasi API dan push notifications sangat dihargai.\n\nPersyaratan: Pengalaman minimal 1 tahun dalam pengembangan aplikasi mobile menggunakan Flutter dan Dart. Pemahaman yang kuat tentang pola desain MVVM/BLoC. Familiar dengan manajemen state (Provider/Riverpod). Mampu mengonsumsi RESTful API. Pengetahuan tentang integrasi Firebase/Cloud Firestore.",
+
+"skills": [
+
+"Mobile Development",
+
+"Flutter",
+
+"Dart",
+
+"Android",
+
+"iOS",
+
+"Firebase"
+
+],
+
+"company_id": "68273fe5af9867c6e8268075"
+
+},
+
+{
+
+"_id": {
+
+"$oid": "682accf97d49457b75d440d0"
+
+},
+
+"title": "DevOps Engineer",
+
+"description": "Mencari DevOps Engineer yang proaktif untuk mengotomatisasi dan mengelola pipeline CI/CD kami. Anda akan bekerja untuk memastikan ketersediaan, skalabilitas, dan keamanan infrastruktur kami. Pengalaman dengan Docker dan Kubernetes adalah suatu keharusan.\n\nPersyaratan: Pengalaman minimal 3 tahun sebagai DevOps Engineer atau posisi serupa. Mahir dengan Linux, scripting (Bash/Python). Pengalaman dengan alat CI/CD (Jenkins, GitLab CI). Pemahaman tentang containerization (Docker) dan orkestrasi (Kubernetes). Familiar dengan cloud computing (AWS, GCP, Azure).",
+
+"skills": [
+
+"DevOps",
+
+"CI/CD",
+
+"Docker",
+
+"Kubernetes",
+
+"Cloud Computing",
+
+"Linux"
+
+],
+
+"company_id": "68273fe5af9867c6e8268076"
+
+}
+
+]
+
+}
+
+
+
+
+
+ai.js
+
+import axios from "axios";
+
+
+
+export const postChatAi = async (id, chat) => {
+
+try {
+
+const response = await axios.post(`/ai/chat/${id}`, {
+
+chat: chat,
+
+});
+
+console.log("Chat posted to AI successfully:", response.data);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error posting chat to AI:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+audio.js
+
+import axios from "axios";
+
+
+
+export const TranscribeAudio = async (audioFile) => {
+
+if (!audioFile) {
+
+throw new Error("No audio file provided for transcription.");
+
+}
+
+
+
+const formData = new FormData();
+
+formData.append("audio", audioFile, "audio.wav");
+
+
+
+try {
+
+const response = await axios.post(`/ai/transcribe`, formData, {
+
+headers: {
+
+"Content-Type": "multipart/form-data",
+
+},
+
+});
+
+
+
+return response.data.transcript;
+
+} catch (error) {
+
+console.error("Error during audio transcription:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+company.js
+
+import axios from "axios";
+
+
+
+// All functions now use the correct /api prefix
+
+const API_PREFIX = "/api";
+
+
+
+export const getCompanies = async () => {
+
+try {
+
+const response = await axios.get(`${API_PREFIX}/company`);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error fetching companies:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+export const getCompanyIdandName = async () => {
+
+try {
+
+const data = await getCompanies();
+
+const companyIdAndName = data.data.map((company) => ({
+
+id: company._id,
+
+name: company.name,
+
+}));
+
+return companyIdAndName;
+
+} catch (error) {
+
+console.error("Error fetching company ID and name:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+export const getCompanyById = async (id) => {
+
+try {
+
+const response = await axios.get(`${API_PREFIX}/company/id/${id}`);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error fetching company by ID:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+export const updateCompany = async (id, companyData) => {
+
+try {
+
+const response = await axios.put(
+
+`${API_PREFIX}/company/id/${id}`,
+
+companyData
+
+);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error updating company:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+export const createCompany = async (companyData) => {
+
+try {
+
+const response = await axios.post(`${API_PREFIX}/company`, companyData);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error creating company:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+interview.js
+
+import axios from "axios";
+
+
+
+// All functions now use the correct /api prefix
+
+const API_PREFIX = "/api";
+
+
+
+const getInterview = async () => {
+
+try {
+
+const response = await axios.get(`${API_PREFIX}/interview`);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error fetching interview by ID:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+const getInterviewById = async (id) => {
+
+try {
+
+const response = await axios.get(`${API_PREFIX}/interview/${id}`);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error fetching interview by ID:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+const postInterview = async (job_id) => {
+
+try {
+
+const response = await axios.post(`${API_PREFIX}/interview`, {
+
+user_id: "6823fa67b6e0d3df4e613a56",
+
+job_id: job_id,
+
+});
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error creating interview:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+const getInterviewLogById = async (id) => {
+
+try {
+
+const response = await axios.get(`${API_PREFIX}/interview/log/${id}`);
+
+return response.data.data.chat;
+
+} catch (error) {
+
+console.error("Error fetching interview log by ID:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+export { getInterview, getInterviewById, postInterview, getInterviewLogById };
+
+
+
+jobs.js
+
+import axios from "axios";
+
+
+
+// All functions now use the correct /api prefix
+
+const API_PREFIX = "/api";
+
+
+
+export const getJobs = async () => {
+
+try {
+
+const response = await axios.get(`${API_PREFIX}/jobs`);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error fetching jobs:", error);
+
+return { data: [] }; // Return empty array on failure
+
+}
+
+};
+
+
+
+export const getJobbyId = async (id) => {
+
+try {
+
+const response = await axios.get(`${API_PREFIX}/jobs/id/${id}`);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error fetching job by ID:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+export const updateJob = async (id, jobData) => {
+
+try {
+
+const response = await axios.put(`${API_PREFIX}/jobs/id/${id}`, jobData);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error updating job:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+export const createJob = async (jobData) => {
+
+try {
+
+const response = await axios.post(`${API_PREFIX}/jobs`, jobData);
+
+return response.data;
+
+} catch (error) {
+
+console.error("Error creating job:", error);
+
+throw error;
+
+}
+
+};
+
+
+
+ChatBody.jsx
+
+// src/pages/ChatbotPage.jsx
+
+import React, { useRef, useEffect } from "react";
+
+import {
+
+Container,
+
+Paper,
+
+TextInput,
+
+Button,
+
+Group,
+
+ScrollArea,
+
+Title,
+
+Loader,
+
+Text,
+
+Box,
+
+ActionIcon,
+
+Skeleton,
+
+} from "@mantine/core";
+
+import { IconSend, IconMessageCircle, IconRobot } from "@tabler/icons-react";
+
+import { ChatMessage } from "./ChatMessage";
+
+
+
+const ChatbotPage = ({
+
+messages,
+
+inputMessage,
+
+setInputMessage,
+
+handleSendMessage,
+
+isLoading = false,
+
+initializing = false,
+
+error = null,
+
+}) => {
+
+// const [messages, setMessages] = useState([
+
+// { id: 1, text: "Halo! Ada yang bisa saya bantu?", sender: "bot" },
+
+// {
+
+// id: 2,
+
+// text: "Saya ingin tahu lebih banyak tentang produk Unilever.",
+
+// sender: "user",
+
+// },
+
+// {
+
+// id: 3,
+
+// text: "Tentu! Produk Unilever mencakup kategori perawatan rumah tangga, perawatan pribadi, makanan, dan minuman. Anda tertarik pada kategori mana?",
+
+// sender: "bot",
+
+// },
+
+// ]);
+
+// const [inputMessage, setInputMessage] = useState("");
+
+const viewport = useRef(null);
+
+
+
+// Fungsi untuk scroll otomatis ke bawah saat pesan baru ditambahkan
+
+
+
+const scrollToBottom = () => {
+
+if (viewport.current) {
+
+viewport.current.scrollTo({
+
+top: viewport.current.scrollHeight,
+
+behavior: "smooth",
+
+});
+
+}
+
+};
+
+
+
+useEffect(() => {
+
+scrollToBottom();
+
+}, [messages]); // Jalankan setiap kali `messages` berubah
+
+
+
+// const handleSendMessage = () => {
+
+// if (inputMessage.trim() === "") return;
+
+
+
+// const newUserMessage = {
+
+// id: messages.length + 1,
+
+// text: inputMessage,
+
+// sender: "user",
+
+// };
+
+// setMessages((prevMessages) => [...prevMessages, newUserMessage]);
+
+// setInputMessage("");
+
+
+
+// // Simulasi respons bot (ini bisa diganti dengan API chatbot sungguhan)
+
+// setTimeout(() => {
+
+// const botResponse = {
+
+// id: messages.length + 2,
+
+// text: `Anda berkata: "${inputMessage}". Maaf, saya masih bot sederhana dan belum bisa memproses permintaan kompleks.`,
+
+// sender: "bot",
+
+// };
+
+// setMessages((prevMessages) => [...prevMessages, botResponse]);
+
+// }, 1000); // Respons bot setelah 1 detik
+
+// };
+
+
+
+const handleKeyPress = (e) => {
+
+if (e.key === "Enter") {
+
+handleSendMessage();
+
+}
+
+};
+
+
+
+return (
+
+<div
+
+style={{
+
+background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+
+height: "100vh",
+
+padding: "0.5rem",
+
+overflow: "hidden",
+
+}}
+
+>
+
+<Container
+
+size="md"
+
+style={{
+
+height: "calc(100vh - 1rem)",
+
+display: "flex",
+
+flexDirection: "column",
+
+padding: 0,
+
+}}
+
+>
+
+<Paper
+
+shadow="xl"
+
+radius="xl"
+
+style={{
+
+background: "rgba(255, 255, 255, 0.95)",
+
+backdropFilter: "blur(10px)",
+
+border: "1px solid rgba(255, 255, 255, 0.3)",
+
+height: "100%",
+
+display: "flex",
+
+flexDirection: "column",
+
+overflow: "hidden",
+
+}}
+
+>
+
+{/* Header */}
+
+<Box
+
+p="lg"
+
+style={{
+
+background: "linear-gradient(45deg, #667eea, #764ba2)",
+
+borderRadius: "16px 16px 0 0",
+
+color: "white",
+
+}}
+
+>
+
+<Group spacing="sm" style={{ justifyContent: "center" }}>
+
+<IconRobot size={28} />
+
+<Title order={2} style={{ margin: 0 }}>
+
+AI Interview Assistant
+
+</Title>
+
+</Group>
+
+<Text
+
+size="sm"
+
+style={{ textAlign: "center", opacity: 0.9, marginTop: "0.5rem" }}
+
+>
+
+Simulasi wawancara kerja dengan AI
+
+</Text>
+
+</Box>
+
+
+
+{/* Chat Messages Area */}
+
+<ScrollArea
+
+style={{ flex: 1, padding: "1rem" }}
+
+viewportRef={viewport}
+
+scrollHideDelay={0}
+
+>
+
+{initializing ? (
+
+<div style={{ padding: "2rem", textAlign: "center" }}>
+
+<Loader size="lg" color="#667eea" />
+
+<Text mt="md" color="dimmed">
+
+Mempersiapkan sesi wawancara...
+
+</Text>
+
+<Box mt="lg">
+
+<Skeleton height={60} radius="lg" mb="md" />
+
+<Skeleton height={60} radius="lg" mb="md" />
+
+<Skeleton height={60} radius="lg" />
+
+</Box>
+
+</div>
+
+) : messages.length === 0 ? (
+
+<div
+
+style={{
+
+padding: "3rem",
+
+textAlign: "center",
+
+display: "flex",
+
+flexDirection: "column",
+
+alignItems: "center",
+
+justifyContent: "center",
+
+height: "100%",
+
+}}
+
+>
+
+<IconMessageCircle
+
+size={64}
+
+color="#667eea"
+
+style={{ opacity: 0.5 }}
+
+/>
+
+<Text size="lg" color="dimmed" mt="md">
+
+Belum ada pesan
+
+</Text>
+
+<Text size="sm" color="dimmed" mt="xs">
+
+Mulai percakapan dengan AI assistant
+
+</Text>
+
+</div>
+
+) : (
+
+<>
+
+{messages.map((msg, index) => (
+
+<ChatMessage
+
+key={msg.id || index}
+
+message={msg.message}
+
+sender={msg.sender}
+
+isError={msg.isError}
+
+/>
+
+))}
+
+
+
+{/* Typing indicator */}
+
+{isLoading && (
+
+<Group mb="md" style={{ justifyContent: "flex-start" }}>
+
+<Box
+
+style={{
+
+background: "#f1f3f4",
+
+borderRadius: "18px",
+
+padding: "12px 16px",
+
+maxWidth: "80px",
+
+display: "flex",
+
+alignItems: "center",
+
+gap: "4px",
+
+}}
+
+>
+
+<div className="typing-animation">
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+</div>
+
+</Box>
+
+</Group>
+
+)}
+
+</>
+
+)}
+
+</ScrollArea>
+
+
+
+{/* Input Area */}
+
+<Box p="lg" style={{ borderTop: "1px solid #e9ecef" }}>
+
+<Group spacing="xs" wrap="nowrap">
+
+<TextInput
+
+placeholder={
+
+isLoading ? "AI sedang mengetik..." : "Ketik pesan Anda..."
+
+}
+
+value={inputMessage}
+
+onChange={(event) => setInputMessage(event.currentTarget.value)}
+
+onKeyPress={handleKeyPress}
+
+style={{ flex: 1 }}
+
+size="md"
+
+radius="xl"
+
+disabled={isLoading || initializing || error}
+
+styles={{
+
+input: {
+
+background: "rgba(255, 255, 255, 0.8)",
+
+border: "1px solid rgba(103, 126, 234, 0.3)",
+
+"&:focus": {
+
+borderColor: "#667eea",
+
+},
+
+},
+
+}}
+
+/>
+
+<ActionIcon
+
+onClick={handleSendMessage}
+
+size="lg"
+
+radius="xl"
+
+disabled={
+
+isLoading || initializing || error || !inputMessage.trim()
+
+}
+
+style={{
+
+background: "linear-gradient(45deg, #667eea, #764ba2)",
+
+color: "white",
+
+width: "48px",
+
+height: "48px",
+
+}}
+
+>
+
+{isLoading ? (
+
+<Loader size="sm" color="white" />
+
+) : (
+
+<IconSend size={20} />
+
+)}
+
+</ActionIcon>
+
+</Group>
+
+</Box>
+
+</Paper>
+
+</Container>
+
+
+
+<style jsx>{`
+
+.typing-animation {
+
+display: flex;
+
+gap: 2px;
+
+}
+
+.typing-animation span {
+
+width: 6px;
+
+height: 6px;
+
+background: #667eea;
+
+border-radius: 50%;
+
+animation: typing 1.4s infinite ease-in-out;
+
+}
+
+.typing-animation span:nth-child(1) {
+
+animation-delay: -0.32s;
+
+}
+
+.typing-animation span:nth-child(2) {
+
+animation-delay: -0.16s;
+
+}
+
+@keyframes typing {
+
+0%,
+
+80%,
+
+100% {
+
+transform: scale(0.8);
+
+opacity: 0.5;
+
+}
+
+40% {
+
+transform: scale(1);
+
+opacity: 1;
+
+}
+
+}
+
+`}</style>
+
+</div>
+
+);
+
+};
+
+
+
+export default ChatbotPage;
+
+
+
+ChatMessage.jsx
+
+import { Group, Text, Box, Avatar } from "@mantine/core";
+
+import { IconUser, IconRobot, IconAlertTriangle } from "@tabler/icons-react";
+
+
+
+export const ChatMessage = ({ message, sender, isError = false }) => {
+
+const isUser = sender === "user";
+
+
+
+return (
+
+<Group
+
+mb="lg"
+
+style={{
+
+justifyContent: isUser ? "flex-end" : "flex-start",
+
+animation: "fadeInUp 0.3s ease-out",
+
+}}
+
+>
+
+{!isUser && (
+
+<Avatar
+
+size="sm"
+
+radius="xl"
+
+style={{
+
+background: isError
+
+? "#fa5252"
+
+: "linear-gradient(45deg, #667eea, #764ba2)",
+
+color: "white",
+
+}}
+
+>
+
+{isError ? <IconAlertTriangle size={16} /> : <IconRobot size={16} />}
+
+</Avatar>
+
+)}
+
+
+
+<Box
+
+style={{
+
+maxWidth: "75%",
+
+borderRadius: "18px",
+
+padding: "12px 16px",
+
+background: isUser
+
+? "linear-gradient(45deg, #667eea, #764ba2)"
+
+: isError
+
+? "linear-gradient(45deg, #fa5252, #e03131)"
+
+: "#f1f3f4",
+
+color: isUser || isError ? "white" : "#333",
+
+boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+
+position: "relative",
+
+wordWrap: "break-word",
+
+animation: "messageSlide 0.3s ease-out",
+
+}}
+
+>
+
+<Text size="sm" style={{ lineHeight: 1.5 }}>
+
+{message}
+
+</Text>
+
+
+
+{/* Message tail */}
+
+<div
+
+style={{
+
+position: "absolute",
+
+bottom: "6px",
+
+[isUser ? "right" : "left"]: "-6px",
+
+width: 0,
+
+height: 0,
+
+borderLeft: isUser ? "6px solid transparent" : "6px solid #f1f3f4",
+
+borderRight: isUser ? "6px solid #667eea" : "6px solid transparent",
+
+borderTop: "6px solid transparent",
+
+borderBottom: "6px solid transparent",
+
+}}
+
+/>
+
+</Box>
+
+
+
+{isUser && (
+
+<Avatar
+
+size="sm"
+
+radius="xl"
+
+style={{
+
+background: "linear-gradient(45deg, #51cf66, #40c057)",
+
+color: "white",
+
+}}
+
+>
+
+<IconUser size={16} />
+
+</Avatar>
+
+)}
+
+
+
+<style jsx>{`
+
+@keyframes fadeInUp {
+
+from {
+
+opacity: 0;
+
+transform: translateY(20px);
+
+}
+
+to {
+
+opacity: 1;
+
+transform: translateY(0);
+
+}
+
+}
+
+
+
+@keyframes messageSlide {
+
+from {
+
+transform: scale(0.8);
+
+opacity: 0;
+
+}
+
+to {
+
+transform: scale(1);
+
+opacity: 1;
+
+}
+
+}
+
+`}</style>
+
+</Group>
+
+);
+
+};
+
+
+
+CompanyCardEdit.jsx
+
+import {
+
+Stack,
+
+Textarea,
+
+TextInput,
+
+Title,
+
+Card,
+
+Text,
+
+Group,
+
+Button,
+
+Container,
+
+Alert,
+
+Loader,
+
+} from "@mantine/core";
+
+import { useState } from "react";
+
+import {
+
+IconBuilding,
+
+IconCheck,
+
+IconX,
+
+IconFileText,
+
+IconAlertCircle,
+
+} from "@tabler/icons-react";
+
+
+
+export const CompanyCardEdit = ({
+
+companyTitle = "",
+
+companyDesc = "",
+
+onSave,
+
+onCancel,
+
+isEdit = true,
+
+isLoading = false,
+
+}) => {
+
+const [title, setTitle] = useState(companyTitle || "");
+
+const [desc, setDesc] = useState(companyDesc || "");
+
+const [formError, setFormError] = useState(null);
+
+
+
+const handleSubmit = (e) => {
+
+e.preventDefault();
+
+setFormError(null);
+
+
+
+if (!title.trim() || !desc.trim()) {
+
+setFormError("Please fill in all required fields");
+
+return;
+
+}
+
+
+
+if (onSave) {
+
+const data = {
+
+name: title.trim(),
+
+description: desc.trim(),
+
+};
+
+onSave(data);
+
+}
+
+};
+
+return (
+
+<Card
+
+shadow="xl"
+
+padding="xl"
+
+radius="lg"
+
+style={{
+
+background: "rgba(255, 255, 255, 0.95)",
+
+backdropFilter: "blur(10px)",
+
+border: "1px solid rgba(255, 255, 255, 0.3)",
+
+}}
+
+>
+
+<Stack spacing="md">
+
+<Group spacing="sm" mb="md" style={{ justifyContent: "center" }}>
+
+<IconBuilding size={28} color="#10b981" />
+
+<Title
+
+order={2}
+
+style={{
+
+background: "linear-gradient(45deg, #10b981, #059669)",
+
+WebkitBackgroundClip: "text",
+
+WebkitTextFillColor: "transparent",
+
+backgroundClip: "text",
+
+textAlign: "center",
+
+}}
+
+>
+
+{isEdit ? "Edit Company" : "Add New Company"}
+
+</Title>
+
+</Group>
+
+
+
+{formError && (
+
+<Alert
+
+icon={<IconAlertCircle size={16} />}
+
+title="Error"
+
+color="red"
+
+variant="filled"
+
+mb="lg"
+
+>
+
+{formError}
+
+</Alert>
+
+)}
+
+
+
+{isLoading && (
+
+<div style={{ textAlign: "center", padding: "2rem" }}>
+
+<Loader size="lg" color="#10b981" />
+
+<Text mt="sm" color="dimmed">
+
+Loading...
+
+</Text>
+
+</div>
+
+)}
+
+
+
+{!isLoading && (
+
+<form onSubmit={handleSubmit}>
+
+<Stack spacing="md">
+
+<TextInput
+
+label="Company Name"
+
+value={title}
+
+onChange={(e) => setTitle(e.target.value)}
+
+required
+
+icon={<IconBuilding size={16} />}
+
+placeholder="Enter company name"
+
+/>
+
+
+
+<Textarea
+
+label="Company Description"
+
+value={desc}
+
+onChange={(e) => setDesc(e.target.value)}
+
+required
+
+autosize
+
+minRows={5}
+
+maxRows={10}
+
+icon={<IconFileText size={16} />}
+
+placeholder="Describe your company..."
+
+/>
+
+
+
+<Group mt="xl" style={{ justifyContent: "center" }}>
+
+<Button
+
+variant="outline"
+
+color="red"
+
+onClick={onCancel}
+
+leftIcon={<IconX size={16} />}
+
+size="md"
+
+>
+
+Cancel
+
+</Button>
+
+<Button
+
+type="submit"
+
+variant="filled"
+
+style={{
+
+background: "linear-gradient(45deg, #10b981, #059669)",
+
+border: "none",
+
+}}
+
+leftIcon={<IconCheck size={16} />}
+
+size="md"
+
+>
+
+Save Changes
+
+</Button>
+
+</Group>
+
+</Stack>
+
+</form>
+
+)}
+
+</Stack>
+
+</Card>
+
+);
+
+};
+
+
+
+CompanyCardView.jsx
+
+import {
+
+Card,
+
+Title,
+
+Text,
+
+Group,
+
+Button,
+
+Stack,
+
+Container,
+
+Divider,
+
+Badge,
+
+} from "@mantine/core";
+
+import { useNavigate } from "react-router-dom";
+
+import { IconArrowLeft, IconEdit, IconBuilding } from "@tabler/icons-react";
+
+
+
+export const CompanyCardView = ({
+
+companyTitle,
+
+companyDesc,
+
+onEdit,
+
+onBack,
+
+}) => {
+
+const navigate = useNavigate();
+
+
+
+const handleBack = () => {
+
+if (onBack) {
+
+onBack();
+
+} else {
+
+navigate("/dashboard");
+
+}
+
+};
+
+
+
+return (
+
+<div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-8">
+
+<Container size="md">
+
+<Card
+
+shadow="xl"
+
+padding="xl"
+
+radius="xl"
+
+withBorder={false}
+
+className="bg-white border-0 shadow-2xl"
+
+>
+
+<Stack spacing="xl">
+
+{/* Header Section */}
+
+<div className="text-center space-y-4">
+
+<div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-4">
+
+<IconBuilding size={32} className="text-green-600" />
+
+</div>
+
+<Title
+
+order={1}
+
+className="text-3xl font-bold text-gray-800 leading-tight"
+
+>
+
+{companyTitle}
+
+</Title>
+
+<Badge
+
+color="green"
+
+variant="light"
+
+size="lg"
+
+className="font-medium"
+
+>
+
+Company Profile
+
+</Badge>
+
+</div>
+
+
+
+<Divider />
+
+
+
+{/* Description Section */}
+
+<div className="space-y-3">
+
+<Title order={4} className="text-lg font-semibold text-gray-700">
+
+About Company
+
+</Title>
+
+<Text
+
+size="md"
+
+className="text-gray-600 leading-relaxed"
+
+style={{ whiteSpace: "pre-wrap" }}
+
+>
+
+{companyDesc}
+
+</Text>
+
+</div>
+
+
+
+<Divider />
+
+
+
+{/* Action Buttons */}
+
+<Group className="flex justify-between items-center pt-4">
+
+<Button
+
+variant="light"
+
+color="gray"
+
+size="md"
+
+leftSection={<IconArrowLeft size={16} />}
+
+onClick={handleBack}
+
+className="hover:bg-gray-100 transition-colors"
+
+>
+
+Back to Dashboard
+
+</Button>
+
+<Button
+
+variant="filled"
+
+color="green"
+
+size="md"
+
+leftSection={<IconEdit size={16} />}
+
+onClick={onEdit}
+
+className="bg-green-600 hover:bg-green-700 transition-colors"
+
+>
+
+Edit Company
+
+</Button>
+
+</Group>
+
+</Stack>
+
+</Card>
+
+</Container>
+
+</div>
+
+);
+
+};
+
+
+
+CompanyTable.jsx
+
+import {
+
+Button,
+
+Group,
+
+Table,
+
+Text,
+
+Skeleton,
+
+Alert,
+
+Card,
+
+Title,
+
+} from "@mantine/core";
+
+import { getCompanies } from "../../api/company";
+
+import { useState, useEffect } from "react";
+
+import { useNavigate } from "react-router-dom";
+
+import {
+
+IconPlus,
+
+IconEye,
+
+IconTrash,
+
+IconAlertCircle,
+
+IconBuilding,
+
+} from "@tabler/icons-react";
+
+
+
+export const CompanyTable = () => {
+
+const navigate = useNavigate();
+
+const [companyData, setCompanyData] = useState([]);
+
+const [loading, setLoading] = useState(true);
+
+const [error, setError] = useState(null);
+
+
+
+useEffect(() => {
+
+const fetchCompanies = async () => {
+
+try {
+
+setLoading(true);
+
+setError(null);
+
+const data = await getCompanies();
+
+setCompanyData(data.data || []);
+
+} catch (err) {
+
+setError("Failed to fetch company data. Please try again.");
+
+console.error("Error fetching company data:", err);
+
+} finally {
+
+setLoading(false);
+
+}
+
+};
+
+
+
+fetchCompanies();
+
+}, []);
+
+
+
+const handleDelete = (companyId) => {
+
+// TODO: Implement delete functionality
+
+console.log("Delete company:", companyId);
+
+};
+
+
+
+const truncateDescription = (description, wordLimit = 20) => {
+
+if (!description) return "";
+
+const words = description.split(" ");
+
+if (words.length <= wordLimit) return description;
+
+return words.slice(0, wordLimit).join(" ") + "...";
+
+};
+
+
+
+if (loading) {
+
+return (
+
+<div className="space-y-4">
+
+<div className="flex justify-between items-center">
+
+<Skeleton height={32} width={200} />
+
+<Skeleton height={36} width={120} />
+
+</div>
+
+<div className="space-y-2">
+
+{[...Array(5)].map((_, index) => (
+
+<Skeleton key={index} height={60} />
+
+))}
+
+</div>
+
+</div>
+
+);
+
+}
+
+
+
+if (error) {
+
+return (
+
+<Alert
+
+icon={<IconAlertCircle size={16} />}
+
+title="Error"
+
+color="red"
+
+className="mb-4"
+
+>
+
+{error}
+
+</Alert>
+
+);
+
+}
+
+
+
+const rows = companyData.map((company) => (
+
+<Table.Tr key={company.id} className="hover:bg-gray-50 transition-colors">
+
+<Table.Td className="font-medium text-gray-900">{company.name}</Table.Td>
+
+<Table.Td>
+
+<Text
+
+size="sm"
+
+color="dimmed"
+
+style={{ whiteSpace: "pre-wrap" }}
+
+className="leading-relaxed"
+
+>
+
+{truncateDescription(company.description)}
+
+</Text>
+
+</Table.Td>
+
+<Table.Td>
+
+<Group spacing="xs">
+
+<Button
+
+variant="light"
+
+size="sm"
+
+color="blue"
+
+leftSection={<IconEye size={14} />}
+
+onClick={() =>
+
+navigate(`/dashboard/company/${company._id["$oid"]}`)
+
+}
+
+className="hover:bg-blue-50"
+
+>
+
+View
+
+</Button>
+
+<Button
+
+variant="light"
+
+size="sm"
+
+color="red"
+
+leftSection={<IconTrash size={14} />}
+
+onClick={() => handleDelete(company.id)}
+
+className="hover:bg-red-50"
+
+>
+
+Delete
+
+</Button>
+
+</Group>
+
+</Table.Td>
+
+</Table.Tr>
+
+));
+
+
+
+return (
+
+<div className="space-y-6">
+
+{/* Header */}
+
+<div className="flex justify-between items-center">
+
+<div>
+
+<Title order={3} className="text-2xl font-semibold text-gray-800">
+
+Company Directory
+
+</Title>
+
+<Text size="sm" color="dimmed" className="mt-1">
+
+{companyData.length} companies registered
+
+</Text>
+
+</div>
+
+<Button
+
+onClick={() => navigate("/dashboard/company/add")}
+
+variant="filled"
+
+color="green"
+
+leftSection={<IconPlus size={16} />}
+
+className="bg-green-600 hover:bg-green-700 transition-colors"
+
+>
+
+Add New Company
+
+</Button>
+
+</div>
+
+
+
+{/* Table */}
+
+<Card className="border-0 shadow-sm">
+
+<Table
+
+striped
+
+highlightOnHover
+
+withBorder={false}
+
+withColumnBorders={false}
+
+horizontalSpacing="lg"
+
+verticalSpacing="md"
+
+className="text-sm"
+
+>
+
+<Table.Thead className="bg-gray-50">
+
+<Table.Tr>
+
+<Table.Th
+
+className="font-semibold text-gray-700 py-4"
+
+style={{ width: "25%" }}
+
+>
+
+Company Name
+
+</Table.Th>
+
+<Table.Th className="font-semibold text-gray-700 py-4">
+
+Description
+
+</Table.Th>
+
+<Table.Th
+
+className="font-semibold text-gray-700 py-4 text-center"
+
+style={{ width: "15%" }}
+
+>
+
+Actions
+
+</Table.Th>
+
+</Table.Tr>
+
+</Table.Thead>
+
+<Table.Tbody>{rows}</Table.Tbody>
+
+</Table>
+
+</Card>
+
+
+
+{/* Empty State */}
+
+{companyData.length === 0 && !loading && (
+
+<div className="text-center py-12">
+
+<IconBuilding size={48} className="text-gray-400 mx-auto mb-4" />
+
+<Title order={4} className="text-gray-600 mb-2">
+
+No companies found
+
+</Title>
+
+<Text size="sm" color="dimmed" className="mb-4">
+
+Get started by adding your first company
+
+</Text>
+
+<Button
+
+onClick={() => navigate("/dashboard/company/add")}
+
+variant="filled"
+
+color="green"
+
+leftSection={<IconPlus size={16} />}
+
+>
+
+Add New Company
+
+</Button>
+
+</div>
+
+)}
+
+</div>
+
+);
+
+};
+
+
+
+JobCard.jsx
+
+import React, { useMemo } from "react";
+
+import {
+
+Card,
+
+Image,
+
+Text,
+
+Badge,
+
+Button,
+
+Group,
+
+Stack,
+
+Title,
+
+Tooltip,
+
+} from "@mantine/core";
+
+import {
+
+IconBriefcase,
+
+IconArrowRight,
+
+IconClock,
+
+IconBuilding,
+
+} from "@tabler/icons-react";
+
+import { useNavigate } from "react-router-dom";
+
+
+
+const DemoJobCard = ({
+
+title = "Software Engineer",
+
+description = "Join our team to work on exciting projects and develop innovative solutions.",
+
+skills = ["HTML", "JavaScript", "React"],
+
+jobType = "Full-time",
+
+companyName = "Tech Company",
+
+companyId = null, // Added company ID for navigation
+
+location = "Remote",
+
+imageUrl = "/img/download.png",
+
+onClick,
+
+isLoading = false,
+
+showCompanyLink = true, // Added prop to control company link visibility
+
+context = "general", // Added context: "general", "dashboard", "admin"
+
+}) => {
+
+const navigate = useNavigate();
+
+
+
+// Handle company name click based on context
+
+const handleCompanyClick = (e) => {
+
+e.stopPropagation(); // Prevent card click event
+
+
+
+if (!companyId || !showCompanyLink) return;
+
+
+
+// Navigate based on context
+
+if (context === "dashboard" || context === "admin") {
+
+// For dashboard/admin context, navigate to company view
+
+navigate(`/company/${companyId}`);
+
+} else {
+
+// For general context, could show company info modal or navigate
+
+navigate(`/company/${companyId}`);
+
+}
+
+};
+
+
+
+// Memoized skill color assignment for consistent colors
+
+const getSkillColor = useMemo(() => {
+
+const colors = [
+
+"blue",
+
+"green",
+
+"purple",
+
+"orange",
+
+"teal",
+
+"pink",
+
+"indigo",
+
+];
+
+return (index) => colors[index % colors.length];
+
+}, []);
+
+
+
+// Truncate description for better card layout
+
+const truncatedDescription = useMemo(() => {
+
+return description.length > 100
+
+? `${description.substring(0, 100)}...`
+
+: description;
+
+}, [description]);
+
+
+
+return (
+
+<Card
+
+shadow="lg"
+
+padding="lg"
+
+radius="xl"
+
+withBorder={false}
+
+className="h-full flex flex-col bg-white hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] border border-gray-100"
+
+style={{
+
+background: "linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)",
+
+}}
+
+>
+
+{/* Image Section with Overlay */}
+
+<Card.Section className="relative overflow-hidden">
+
+<div className="relative">
+
+<Image
+
+src={imageUrl}
+
+height={180}
+
+alt="Job Image"
+
+className="object-cover transition-transform duration-500 hover:scale-110"
+
+/>
+
+<div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+
+<div className="absolute top-3 right-3">
+
+<Badge
+
+color="blue"
+
+variant="filled"
+
+size="md"
+
+className="bg-blue-600/90 backdrop-blur-sm border-0 font-medium shadow-lg"
+
+leftSection={<IconClock size={14} />}
+
+>
+
+{jobType}
+
+</Badge>
+
+</div>
+
+</div>
+
+</Card.Section>
+
+
+
+{/* Content Section */}
+
+<Stack spacing="md" className="flex-1 pt-4">
+
+{/* Title Section */}
+
+<div className="space-y-3">
+
+<Group spacing="xs" className="items-center">
+
+<div className="flex items-center justify-center w-8 h-8 bg-blue-100 rounded-lg">
+
+<IconBriefcase size={16} className="text-blue-600" />
+
+</div>
+
+<Title
+
+order={4}
+
+className="text-gray-800 font-semibold leading-tight flex-1"
+
+lineClamp={2}
+
+>
+
+{title}
+
+</Title>
+
+</Group>
+
+
+
+{/* Company Information */}
+
+<Group spacing="xs" className="items-center">
+
+<IconBuilding size={14} className="text-gray-500" />
+
+<Text
+
+size="sm"
+
+className={`font-medium ${
+
+companyId && showCompanyLink
+
+? "text-blue-600 hover:text-blue-800 cursor-pointer hover:underline transition-colors"
+
+: "text-gray-600"
+
+}`}
+
+onClick={
+
+companyId && showCompanyLink ? handleCompanyClick : undefined
+
+}
+
+style={{
+
+cursor: companyId && showCompanyLink ? "pointer" : "default",
+
+}}
+
+>
+
+{companyName}
+
+</Text>
+
+{location && (
+
+<>
+
+<Text size="xs" className="text-gray-400">
+
+•
+
+</Text>
+
+<Text size="sm" className="text-gray-500">
+
+{location}
+
+</Text>
+
+</>
+
+)}
+
+</Group>
+
+</div>
+
+
+
+{/* Description */}
+
+<Tooltip label={description} disabled={description.length <= 100}>
+
+<Text
+
+size="sm"
+
+className="text-gray-600 leading-relaxed flex-1"
+
+style={{ minHeight: "2.5rem" }}
+
+>
+
+{truncatedDescription}
+
+</Text>
+
+</Tooltip>
+
+
+
+{/* Skills Section */}
+
+{skills && skills.length > 0 && (
+
+<div className="space-y-2">
+
+<Text
+
+size="xs"
+
+className="text-gray-500 font-medium uppercase tracking-wide"
+
+>
+
+Skills Required
+
+</Text>
+
+<Group spacing="xs" className="flex-wrap">
+
+{skills.slice(0, 4).map((skill, index) => (
+
+<Badge
+
+key={index}
+
+color={getSkillColor(index)}
+
+variant="light"
+
+size="sm"
+
+className="font-medium px-2 py-1"
+
+>
+
+{skill}
+
+</Badge>
+
+))}
+
+{skills.length > 4 && (
+
+<Badge
+
+color="gray"
+
+variant="light"
+
+size="sm"
+
+className="font-medium px-2 py-1"
+
+>
+
++{skills.length - 4} more
+
+</Badge>
+
+)}
+
+</Group>
+
+</div>
+
+)}
+
+
+
+{/* Apply Button */}
+
+<Button
+
+color="blue"
+
+variant="gradient"
+
+gradient={{ from: "blue", to: "indigo", deg: 45 }}
+
+fullWidth
+
+size="md"
+
+radius="lg"
+
+onClick={onClick}
+
+loading={isLoading}
+
+rightSection={<IconArrowRight size={16} />}
+
+className="mt-auto font-medium shadow-md hover:shadow-lg transition-all duration-200"
+
+>
+
+Apply Now
+
+</Button>
+
+</Stack>
+
+</Card>
+
+);
+
+};
+
+
+
+export default DemoJobCard;
+
+
+
+JobCardEdit.jsx
+
+import {
+
+Card,
+
+Stack,
+
+Title,
+
+Group,
+
+Button,
+
+TextInput,
+
+Textarea,
+
+MultiSelect,
+
+Container,
+
+Divider,
+
+Text,
+
+Select,
+
+Alert,
+
+Loader,
+
+} from "@mantine/core";
+
+import { useEffect, useState } from "react";
+
+import { getCompanies } from "../../api/company";
+
+import {
+
+IconBriefcase,
+
+IconCheck,
+
+IconX,
+
+IconBuilding,
+
+IconFileText,
+
+IconTags,
+
+IconAlertCircle,
+
+} from "@tabler/icons-react";
+
+
+
+export const JobCardEditForm = ({
+
+jobTitle = "",
+
+JobDesc = "",
+
+JobSkills = [],
+
+CompanyId = "",
+
+onSave,
+
+onCancel,
+
+isEdit = true,
+
+isLoading = false,
+
+}) => {
+
+const [title, setTitle] = useState(jobTitle);
+
+const [desc, setDesc] = useState(JobDesc);
+
+const [skills, setSkills] = useState(JobSkills || []);
+
+const [companyOptions, setCompanyOptions] = useState([]);
+
+const [companyId, setCompanyId] = useState(CompanyId);
+
+const [loadingCompanies, setLoadingCompanies] = useState(false);
+
+const [error, setError] = useState(null);
+
+
+
+// Predefined skill options for MultiSelect
+
+const skillOptions = [
+
+"JavaScript",
+
+"TypeScript",
+
+"React",
+
+"Vue.js",
+
+"Angular",
+
+"Node.js",
+
+"Python",
+
+"Java",
+
+"C#",
+
+"PHP",
+
+"Go",
+
+"Rust",
+
+"HTML",
+
+"CSS",
+
+"SASS",
+
+"Tailwind CSS",
+
+"Bootstrap",
+
+"MongoDB",
+
+"PostgreSQL",
+
+"MySQL",
+
+"Redis",
+
+"Docker",
+
+"Kubernetes",
+
+"AWS",
+
+"Azure",
+
+"Git",
+
+"CI/CD",
+
+"Testing",
+
+];
+
+
+
+const handleSubmit = (e) => {
+
+e.preventDefault();
+
+setError(null);
+
+
+
+if (!title.trim() || !desc.trim() || !companyId) {
+
+setError("Please fill in all required fields");
+
+return;
+
+}
+
+
+
+if (onSave) {
+
+const data = {
+
+title: title.trim(),
+
+description: desc.trim(),
+
+skills: skills,
+
+company_id: companyId,
+
+};
+
+onSave(data);
+
+}
+
+};
+
+
+
+useEffect(() => {
+
+const fetchCompanies = async () => {
+
+setLoadingCompanies(true);
+
+setError(null);
+
+
+
+try {
+
+const data = await getCompanies();
+
+const companies = data.data.map((company) => ({
+
+value: company._id,
+
+label: company.name,
+
+}));
+
+setCompanyOptions(companies);
+
+console.log("Companies fetched:", companies);
+
+} catch (error) {
+
+console.error("Error fetching companies:", error);
+
+setError("Failed to load companies");
+
+} finally {
+
+setLoadingCompanies(false);
+
+}
+
+};
+
+
+
+fetchCompanies();
+
+}, []);
+
+
+
+// const handleCreateSkill = (query) => {
+
+// setSkillOptions((current) => [...current, query]);
+
+// setSkills((current) => [...current, query]);
+
+// return query;
+
+// };
+
+
+
+return (
+
+<div
+
+style={{
+
+background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+
+minHeight: "100vh",
+
+padding: "2rem",
+
+}}
+
+>
+
+<Container size="md">
+
+<Card
+
+shadow="xl"
+
+padding="xl"
+
+radius="lg"
+
+style={{
+
+background: "rgba(255, 255, 255, 0.95)",
+
+backdropFilter: "blur(10px)",
+
+border: "1px solid rgba(255, 255, 255, 0.3)",
+
+}}
+
+>
+
+<Stack spacing="md">
+
+<Group spacing="sm" mb="md" style={{ justifyContent: "center" }}>
+
+<IconBriefcase size={28} color="#667eea" />
+
+<Title
+
+order={2}
+
+style={{
+
+background: "linear-gradient(45deg, #667eea, #764ba2)",
+
+WebkitBackgroundClip: "text",
+
+WebkitTextFillColor: "transparent",
+
+backgroundClip: "text",
+
+textAlign: "center",
+
+}}
+
+>
+
+{isEdit ? "Edit Job" : "Add New Job"}
+
+</Title>
+
+</Group>
+
+
+
+{error && (
+
+<Alert
+
+icon={<IconAlertCircle size={16} />}
+
+title="Error"
+
+color="red"
+
+variant="filled"
+
+mb="lg"
+
+>
+
+{error}
+
+</Alert>
+
+)}
+
+
+
+{isLoading && (
+
+<div style={{ textAlign: "center", padding: "2rem" }}>
+
+<Loader size="lg" color="#667eea" />
+
+<Text mt="sm" color="dimmed">
+
+Loading...
+
+</Text>
+
+</div>
+
+)}
+
+
+
+{!isLoading && (
+
+<form onSubmit={handleSubmit}>
+
+<Stack spacing="md">
+
+<TextInput
+
+label="Job Title"
+
+value={title}
+
+onChange={(e) => setTitle(e.target.value)}
+
+required
+
+icon={<IconFileText size={16} />}
+
+/>
+
+
+
+<Textarea
+
+label="Job Description"
+
+value={desc}
+
+onChange={(e) => setDesc(e.target.value)}
+
+required
+
+autosize
+
+minRows={5}
+
+maxRows={10}
+
+icon={<IconFileText size={16} />}
+
+/>
+
+
+
+<MultiSelect
+
+label="Job Skills"
+
+data={skillOptions}
+
+value={skills}
+
+onChange={setSkills}
+
+placeholder="Select or type skills"
+
+searchable
+
+creatable
+
+getCreateLabel={(query) => `+ Create ${query}`}
+
+onCreate={(query) => {
+
+const item = query;
+
+setSkills((current) => [...current, item]);
+
+return item;
+
+}}
+
+icon={<IconTags size={16} />}
+
+/>
+
+
+
+<Select
+
+label="Company"
+
+data={companyOptions}
+
+value={companyId}
+
+onChange={(value) => {
+
+console.log("Selected company:", value);
+
+setCompanyId(value);
+
+}}
+
+required
+
+placeholder="Select a company"
+
+disabled={loadingCompanies}
+
+searchable
+
+clearable
+
+error={error}
+
+icon={<IconBuilding size={16} />}
+
+/>
+
+
+
+<Group mt="xl" style={{ justifyContent: "center" }}>
+
+<Button
+
+variant="outline"
+
+color="red"
+
+onClick={onCancel}
+
+leftIcon={<IconX size={16} />}
+
+size="md"
+
+>
+
+Cancel
+
+</Button>
+
+<Button
+
+type="submit"
+
+variant="filled"
+
+style={{
+
+background: "linear-gradient(45deg, #667eea, #764ba2)",
+
+border: "none",
+
+}}
+
+leftIcon={<IconCheck size={16} />}
+
+size="md"
+
+>
+
+Save Changes
+
+</Button>
+
+</Group>
+
+</Stack>
+
+</form>
+
+)}
+
+</Stack>
+
+</Card>
+
+</Container>
+
+</div>
+
+);
+
+};
+
+
+
+JobCardView.jsx
+
+import {
+
+Card,
+
+Container,
+
+Stack,
+
+Title,
+
+Text,
+
+Group,
+
+Button,
+
+Badge,
+
+Divider,
+
+} from "@mantine/core";
+
+import { useNavigate } from "react-router-dom";
+
+import {
+
+IconArrowLeft,
+
+IconEdit,
+
+IconSend,
+
+IconBriefcase,
+
+IconBuilding,
+
+IconMapPin,
+
+} from "@tabler/icons-react";
+
+
+
+export const JobCardView = ({
+
+jobTitle,
+
+JobDesc,
+
+JobSkills = [],
+
+companyName = "Company",
+
+companyId = null, // Added company ID for navigation
+
+location = "Remote",
+
+onEdit,
+
+onBack,
+
+isApply = false,
+
+showCompanyLink = true, // Added prop to control company link visibility
+
+context = "general", // Added context: "general", "dashboard", "admin"
+
+}) => {
+
+const navigate = useNavigate();
+
+
+
+// Handle company name click based on context
+
+const handleCompanyClick = () => {
+
+if (!companyId || !showCompanyLink) return;
+
+
+
+// Navigate based on context
+
+if (context === "dashboard" || context === "admin") {
+
+// For dashboard/admin context, navigate to company view
+
+navigate(`/company/${companyId}`);
+
+} else {
+
+// For general context, could show company info modal or navigate
+
+navigate(`/company/${companyId}`);
+
+}
+
+};
+
+
+
+const handleBack = () => {
+
+if (onBack) {
+
+onBack();
+
+} else {
+
+navigate("/dashboard");
+
+}
+
+};
+
+
+
+const getSkillColor = (index) => {
+
+const colors = [
+
+"blue",
+
+"green",
+
+"purple",
+
+"orange",
+
+"teal",
+
+"pink",
+
+"indigo",
+
+];
+
+return colors[index % colors.length];
+
+};
+
+
+
+return (
+
+<div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8">
+
+<Container size="md">
+
+<Card
+
+shadow="xl"
+
+padding="xl"
+
+radius="xl"
+
+withBorder={false}
+
+className="bg-white border-0 shadow-2xl"
+
+>
+
+<Stack spacing="xl">
+
+{/* Header Section */}
+
+<div className="text-center space-y-4">
+
+<div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
+
+<IconBriefcase size={32} className="text-blue-600" />
+
+</div>
+
+<Title
+
+order={1}
+
+className="text-3xl font-bold text-gray-800 leading-tight"
+
+>
+
+{jobTitle}
+
+</Title>
+
+
+
+{/* Company Information */}
+
+<div className="flex items-center justify-center space-x-4 text-gray-600">
+
+<div className="flex items-center space-x-2">
+
+<IconBuilding size={18} className="text-blue-500" />
+
+<Text
+
+size="lg"
+
+className={`font-medium ${
+
+companyId && showCompanyLink
+
+? "text-blue-600 hover:text-blue-800 cursor-pointer hover:underline transition-colors"
+
+: "text-gray-700"
+
+}`}
+
+onClick={
+
+companyId && showCompanyLink
+
+? handleCompanyClick
+
+: undefined
+
+}
+
+style={{
+
+cursor:
+
+companyId && showCompanyLink ? "pointer" : "default",
+
+}}
+
+>
+
+{companyName}
+
+</Text>
+
+</div>
+
+{location && (
+
+<>
+
+<Text size="sm" className="text-gray-400">
+
+•
+
+</Text>
+
+<div className="flex items-center space-x-1">
+
+<IconMapPin size={16} className="text-green-500" />
+
+<Text size="md" className="text-gray-600">
+
+{location}
+
+</Text>
+
+</div>
+
+</>
+
+)}
+
+</div>
+
+</div>
+
+
+
+<Divider />
+
+
+
+{/* Skills Section */}
+
+{JobSkills && JobSkills.length > 0 && (
+
+<div className="space-y-3">
+
+<Title
+
+order={4}
+
+className="text-lg font-semibold text-gray-700"
+
+>
+
+Required Skills
+
+</Title>
+
+<Group spacing="sm" className="flex flex-wrap">
+
+{JobSkills.map((skill, index) => (
+
+<Badge
+
+key={index}
+
+color={getSkillColor(index)}
+
+variant="light"
+
+size="lg"
+
+className="px-3 py-2 font-medium text-sm"
+
+>
+
+{skill}
+
+</Badge>
+
+))}
+
+</Group>
+
+</div>
+
+)}
+
+
+
+<Divider />
+
+
+
+{/* Description Section */}
+
+<div className="space-y-3">
+
+<Title order={4} className="text-lg font-semibold text-gray-700">
+
+Job Description
+
+</Title>
+
+<Text
+
+size="md"
+
+className="text-gray-600 leading-relaxed"
+
+style={{ whiteSpace: "pre-wrap" }}
+
+>
+
+{JobDesc}
+
+</Text>
+
+</div>
+
+
+
+<Divider />
+
+
+
+{/* Action Buttons */}
+
+<Group className="flex justify-between items-center pt-4">
+
+<Button
+
+variant="light"
+
+color="gray"
+
+size="md"
+
+leftSection={<IconArrowLeft size={16} />}
+
+onClick={handleBack}
+
+className="hover:bg-gray-100 transition-colors"
+
+>
+
+Back to Dashboard
+
+</Button>
+
+<Button
+
+variant="filled"
+
+color={isApply ? "green" : "blue"}
+
+size="md"
+
+leftSection={
+
+isApply ? <IconSend size={16} /> : <IconEdit size={16} />
+
+}
+
+onClick={onEdit}
+
+className={`transition-colors ${
+
+isApply
+
+? "bg-green-600 hover:bg-green-700"
+
+: "bg-blue-600 hover:bg-blue-700"
+
+}`}
+
+>
+
+{isApply ? "Apply Now" : "Edit Job"}
+
+</Button>
+
+</Group>
+
+</Stack>
+
+</Card>
+
+</Container>
+
+</div>
+
+);
+
+};
+
+
+
+JobTable.jsx
+
+import {
+
+Table,
+
+Button,
+
+Group,
+
+Text,
+
+Box,
+
+ActionIcon,
+
+Badge,
+
+Skeleton,
+
+Alert,
+
+Card,
+
+Title,
+
+} from "@mantine/core";
+
+import { useState, useEffect, useMemo } from "react";
+
+import { getJobs } from "../../api/jobs";
+
+import { useNavigate } from "react-router-dom";
+
+import {
+
+IconPlus,
+
+IconEye,
+
+IconTrash,
+
+IconAlertCircle,
+
+IconBriefcase,
+
+} from "@tabler/icons-react";
+
+
+
+export const JobTable = () => {
+
+const [jobData, setJobData] = useState([]);
+
+const [loading, setLoading] = useState(true);
+
+const [error, setError] = useState(null);
+
+const navigate = useNavigate();
+
+
+
+const badgeColors = useMemo(
+
+() => [
+
+"blue",
+
+"cyan",
+
+"teal",
+
+"green",
+
+"lime",
+
+"yellow",
+
+"orange",
+
+"red",
+
+"grape",
+
+"violet",
+
+"indigo",
+
+],
+
+[]
+
+);
+
+
+
+// Memoize colors untuk setiap skill agar tidak berubah saat re-render
+
+const getConsistentColor = useMemo(() => {
+
+const colorMap = new Map();
+
+return (skill) => {
+
+if (!colorMap.has(skill)) {
+
+colorMap.set(
+
+skill,
+
+badgeColors[Math.floor(Math.random() * badgeColors.length)]
+
+);
+
+}
+
+return colorMap.get(skill);
+
+};
+
+}, [badgeColors]);
+
+
+
+useEffect(() => {
+
+const fetchJobs = async () => {
+
+try {
+
+setLoading(true);
+
+setError(null);
+
+const data = await getJobs();
+
+setJobData(data.data || []);
+
+} catch (err) {
+
+setError("Failed to fetch job data. Please try again.");
+
+console.error("Error fetching job data:", err);
+
+} finally {
+
+setLoading(false);
+
+}
+
+};
+
+
+
+fetchJobs();
+
+}, []);
+
+
+
+const handleDelete = (jobId) => {
+
+// TODO: Implement delete functionality
+
+console.log("Delete job:", jobId);
+
+};
+
+
+
+if (loading) {
+
+return (
+
+<div className="space-y-4">
+
+<div className="flex justify-between items-center">
+
+<Skeleton height={32} width={200} />
+
+<Skeleton height={36} width={100} />
+
+</div>
+
+<div className="space-y-2">
+
+{[...Array(5)].map((_, index) => (
+
+<Skeleton key={index} height={60} />
+
+))}
+
+</div>
+
+</div>
+
+);
+
+}
+
+
+
+if (error) {
+
+return (
+
+<Alert
+
+icon={<IconAlertCircle size={16} />}
+
+title="Error"
+
+color="red"
+
+className="mb-4"
+
+>
+
+{error}
+
+</Alert>
+
+);
+
+}
+
+
+
+const rows = jobData.map((job) => (
+
+<Table.Tr key={job.id} className="hover:bg-gray-50 transition-colors">
+
+<Table.Td className="font-medium text-gray-900">{job.title}</Table.Td>
+
+<Table.Td>
+
+<Group spacing="xs" wrap>
+
+{job.skills?.map((skill, index) => (
+
+<Badge
+
+color={getConsistentColor(skill)}
+
+variant="light"
+
+key={index}
+
+size="sm"
+
+className="font-medium"
+
+>
+
+{skill}
+
+</Badge>
+
+))}
+
+</Group>
+
+</Table.Td>
+
+<Table.Td>
+
+<Group spacing="xs">
+
+<Button
+
+variant="light"
+
+size="sm"
+
+color="blue"
+
+leftSection={<IconEye size={14} />}
+
+onClick={() => navigate(`/dashboard/job/${job._id}`)}
+
+className="hover:bg-blue-50"
+
+>
+
+View
+
+</Button>
+
+<Button
+
+variant="light"
+
+size="sm"
+
+color="red"
+
+leftSection={<IconTrash size={14} />}
+
+onClick={() => handleDelete(job.id)}
+
+className="hover:bg-red-50"
+
+>
+
+Delete
+
+</Button>
+
+</Group>
+
+</Table.Td>
+
+</Table.Tr>
+
+));
+
+
+
+return (
+
+<div className="space-y-6">
+
+{/* Header */}
+
+<div className="flex justify-between items-center">
+
+<div>
+
+<Title order={3} className="text-2xl font-semibold text-gray-800">
+
+Job Listings
+
+</Title>
+
+<Text size="sm" color="dimmed" className="mt-1">
+
+{jobData.length} jobs available
+
+</Text>
+
+</div>
+
+<Button
+
+onClick={() => navigate("/dashboard/job/add")}
+
+variant="filled"
+
+color="blue"
+
+leftSection={<IconPlus size={16} />}
+
+className="bg-blue-600 hover:bg-blue-700 transition-colors"
+
+>
+
+Add New Job
+
+</Button>
+
+</div>
+
+
+
+{/* Table */}
+
+<Card className="border-0 shadow-sm">
+
+<Table
+
+striped
+
+highlightOnHover
+
+withBorder={false}
+
+withColumnBorders={false}
+
+horizontalSpacing="lg"
+
+verticalSpacing="md"
+
+className="text-sm"
+
+>
+
+<Table.Thead className="bg-gray-50">
+
+<Table.Tr>
+
+<Table.Th className="font-semibold text-gray-700 py-4">
+
+Job Title
+
+</Table.Th>
+
+<Table.Th className="font-semibold text-gray-700 py-4">
+
+Skills Required
+
+</Table.Th>
+
+<Table.Th className="font-semibold text-gray-700 py-4 text-center">
+
+Actions
+
+</Table.Th>
+
+</Table.Tr>
+
+</Table.Thead>
+
+<Table.Tbody>{rows}</Table.Tbody>
+
+</Table>
+
+</Card>
+
+
+
+{/* Empty State */}
+
+{jobData.length === 0 && !loading && (
+
+<div className="text-center py-12">
+
+<IconBriefcase size={48} className="text-gray-400 mx-auto mb-4" />
+
+<Title order={4} className="text-gray-600 mb-2">
+
+No jobs found
+
+</Title>
+
+<Text size="sm" color="dimmed" className="mb-4">
+
+Get started by adding your first job listing
+
+</Text>
+
+<Button
+
+onClick={() => navigate("/dashboard/job/add")}
+
+variant="filled"
+
+color="blue"
+
+leftSection={<IconPlus size={16} />}
+
+>
+
+Add New Job
+
+</Button>
+
+</div>
+
+)}
+
+</div>
+
+);
+
+};
+
+
+
+addCompany.jsx
+
+import {
+
+Container,
+
+Title,
+
+Alert,
+
+Button,
+
+Group,
+
+Text,
+
+Loader,
+
+} from "@mantine/core";
+
+import { CompanyCardEdit } from "../components/Company/CompanyCardEdit";
+
+import { useNavigate } from "react-router-dom";
+
+import { createCompany } from "../api/company";
+
+import { useState } from "react";
+
+import {
+
+IconBuilding,
+
+IconArrowLeft,
+
+IconAlertCircle,
+
+IconCheck,
+
+} from "@tabler/icons-react";
+
+import { notifications } from "@mantine/notifications";
+
+
+
+export const AddCompany = () => {
+
+const navigate = useNavigate();
+
+const [isLoading, setIsLoading] = useState(false);
+
+const [error, setError] = useState(null);
+
+
+
+const handleSave = async (newCompany) => {
+
+setIsLoading(true);
+
+setError(null);
+
+
+
+try {
+
+console.log("New company saved:", newCompany);
+
+const response = await createCompany(newCompany);
+
+console.log("Company created successfully:", response);
+
+
+
+// Show success notification
+
+notifications.show({
+
+title: "Success!",
+
+message: "Company created successfully",
+
+color: "green",
+
+icon: <IconCheck size={16} />,
+
+});
+
+
+
+// Navigate to dashboard after success
+
+navigate("/dashboard");
+
+} catch (error) {
+
+console.error("Error creating company:", error);
+
+setError("Failed to create company. Please try again.");
+
+
+
+// Show error notification
+
+notifications.show({
+
+title: "Error",
+
+message: "Failed to create company. Please try again.",
+
+color: "red",
+
+icon: <IconAlertCircle size={16} />,
+
+});
+
+} finally {
+
+setIsLoading(false);
+
+}
+
+};
+
+
+
+return (
+
+<div
+
+style={{
+
+background: "linear-gradient(135deg, #10b981 0%, #059669 100%)",
+
+minHeight: "100vh",
+
+padding: "2rem 0",
+
+}}
+
+>
+
+<Container size="lg">
+
+{/* Header Section */}
+
+<div
+
+style={{
+
+background: "rgba(255, 255, 255, 0.1)",
+
+backdropFilter: "blur(10px)",
+
+border: "1px solid rgba(255, 255, 255, 0.2)",
+
+borderRadius: "16px",
+
+padding: "2rem",
+
+marginBottom: "2rem",
+
+textAlign: "center",
+
+}}
+
+>
+
+<Group spacing="sm" mb="md" style={{ justifyContent: "center" }}>
+
+<IconBuilding size={32} color="white" />
+
+<Title
+
+order={1}
+
+style={{
+
+color: "white",
+
+textAlign: "center",
+
+textShadow: "0 2px 4px rgba(0,0,0,0.3)",
+
+}}
+
+>
+
+Add New Company
+
+</Title>
+
+</Group>
+
+<Text
+
+size="lg"
+
+style={{
+
+color: "rgba(255, 255, 255, 0.9)",
+
+textAlign: "center",
+
+}}
+
+>
+
+Create a new company profile for your organization
+
+</Text>
+
+</div>
+
+
+
+{/* Back Button */}
+
+<Group mb="lg">
+
+<Button
+
+variant="subtle"
+
+color="white"
+
+leftIcon={<IconArrowLeft size={16} />}
+
+onClick={() => navigate("/dashboard")}
+
+style={{
+
+background: "rgba(255, 255, 255, 0.1)",
+
+border: "1px solid rgba(255, 255, 255, 0.2)",
+
+backdropFilter: "blur(10px)",
+
+}}
+
+>
+
+Back to Dashboard
+
+</Button>
+
+</Group>
+
+
+
+{/* Error Alert */}
+
+{error && (
+
+<Alert
+
+icon={<IconAlertCircle size={16} />}
+
+title="Error"
+
+color="red"
+
+variant="filled"
+
+mb="lg"
+
+style={{
+
+background: "rgba(220, 38, 38, 0.9)",
+
+backdropFilter: "blur(10px)",
+
+}}
+
+>
+
+{error}
+
+</Alert>
+
+)}
+
+
+
+{/* Loading State */}
+
+{isLoading && (
+
+<div
+
+style={{
+
+background: "rgba(255, 255, 255, 0.1)",
+
+backdropFilter: "blur(10px)",
+
+border: "1px solid rgba(255, 255, 255, 0.2)",
+
+borderRadius: "16px",
+
+padding: "3rem",
+
+textAlign: "center",
+
+marginBottom: "2rem",
+
+}}
+
+>
+
+<Loader size="lg" color="white" />
+
+<Text mt="md" style={{ color: "white" }}>
+
+Creating company...
+
+</Text>
+
+</div>
+
+)}
+
+
+
+{/* Company Form */}
+
+<CompanyCardEdit
+
+isEdit={false}
+
+isLoading={isLoading}
+
+onCancel={() => navigate("/dashboard")}
+
+onSave={handleSave}
+
+/>
+
+</Container>
+
+</div>
+
+);
+
+};
+
+
+
+AddJob.jsx
+
+import {
+
+Container,
+
+Title,
+
+Alert,
+
+Button,
+
+Group,
+
+Text,
+
+Loader,
+
+} from "@mantine/core";
+
+import { JobCardEditForm } from "../components/Jobs/JobCardEdit";
+
+import { useNavigate } from "react-router-dom";
+
+import { createJob } from "../api/jobs";
+
+import { useState } from "react";
+
+import {
+
+IconBriefcase,
+
+IconArrowLeft,
+
+IconAlertCircle,
+
+IconCheck,
+
+} from "@tabler/icons-react";
+
+import { notifications } from "@mantine/notifications";
+
+
+
+export const AddJob = () => {
+
+const navigate = useNavigate();
+
+const [isLoading, setIsLoading] = useState(false);
+
+const [error, setError] = useState(null);
+
+
+
+const handleSave = async (newJob) => {
+
+setIsLoading(true);
+
+setError(null);
+
+
+
+try {
+
+console.log("New job saved:", newJob);
+
+const response = await createJob(newJob);
+
+console.log("Job created successfully:", response);
+
+
+
+// Show success notification
+
+notifications.show({
+
+title: "Success!",
+
+message: "Job created successfully",
+
+color: "green",
+
+icon: <IconCheck size={16} />,
+
+});
+
+
+
+// Navigate to dashboard after success
+
+navigate("/dashboard");
+
+} catch (error) {
+
+console.error("Error creating job:", error);
+
+setError("Failed to create job. Please try again.");
+
+
+
+// Show error notification
+
+notifications.show({
+
+title: "Error",
+
+message: "Failed to create job. Please try again.",
+
+color: "red",
+
+icon: <IconAlertCircle size={16} />,
+
+});
+
+} finally {
+
+setIsLoading(false);
+
+}
+
+};
+
+return (
+
+<div
+
+style={{
+
+background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+
+minHeight: "100vh",
+
+padding: "2rem 0",
+
+}}
+
+>
+
+<Container size="lg">
+
+{/* Header Section */}
+
+<div
+
+style={{
+
+background: "rgba(255, 255, 255, 0.1)",
+
+backdropFilter: "blur(10px)",
+
+border: "1px solid rgba(255, 255, 255, 0.2)",
+
+borderRadius: "16px",
+
+padding: "2rem",
+
+marginBottom: "2rem",
+
+textAlign: "center",
+
+}}
+
+>
+
+<Group spacing="sm" mb="md" style={{ justifyContent: "center" }}>
+
+<IconBriefcase size={32} color="white" />
+
+<Title
+
+order={1}
+
+style={{
+
+color: "white",
+
+textAlign: "center",
+
+textShadow: "0 2px 4px rgba(0,0,0,0.3)",
+
+}}
+
+>
+
+Add New Job
+
+</Title>
+
+</Group>
+
+<Text
+
+size="lg"
+
+style={{
+
+color: "rgba(255, 255, 255, 0.9)",
+
+textAlign: "center",
+
+}}
+
+>
+
+Create a new job posting for your organization
+
+</Text>
+
+</div>
+
+
+
+{/* Back Button */}
+
+<Group mb="lg">
+
+<Button
+
+variant="subtle"
+
+color="white"
+
+leftIcon={<IconArrowLeft size={16} />}
+
+onClick={() => navigate("/dashboard")}
+
+style={{
+
+background: "rgba(255, 255, 255, 0.1)",
+
+border: "1px solid rgba(255, 255, 255, 0.2)",
+
+backdropFilter: "blur(10px)",
+
+}}
+
+>
+
+Back to Dashboard
+
+</Button>
+
+</Group>
+
+
+
+{/* Error Alert */}
+
+{error && (
+
+<Alert
+
+icon={<IconAlertCircle size={16} />}
+
+title="Error"
+
+color="red"
+
+variant="filled"
+
+mb="lg"
+
+style={{
+
+background: "rgba(220, 38, 38, 0.9)",
+
+backdropFilter: "blur(10px)",
+
+}}
+
+>
+
+{error}
+
+</Alert>
+
+)}
+
+
+
+{/* Loading State */}
+
+{isLoading && (
+
+<div
+
+style={{
+
+background: "rgba(255, 255, 255, 0.1)",
+
+backdropFilter: "blur(10px)",
+
+border: "1px solid rgba(255, 255, 255, 0.2)",
+
+borderRadius: "16px",
+
+padding: "3rem",
+
+textAlign: "center",
+
+marginBottom: "2rem",
+
+}}
+
+>
+
+<Loader size="lg" color="white" />
+
+<Text mt="md" style={{ color: "white" }}>
+
+Creating job posting...
+
+</Text>
+
+</div>
+
+)}
+
+
+
+{/* Job Form */}
+
+<JobCardEditForm
+
+isEdit={false}
+
+isLoading={isLoading}
+
+onSave={handleSave}
+
+onCancel={() => navigate("/dashboard")}
+
+/>
+
+</Container>
+
+</div>
+
+);
+
+};
+
+
+
+Chat.jsx
+
+import ChatbotPage from "../components/Chat/ChatBody";
+
+import { useEffect, useState } from "react";
+
+import { useParams } from "react-router-dom";
+
+import { Alert } from "@mantine/core";
+
+import { IconAlertCircle } from "@tabler/icons-react";
+
+
+
+import { getInterviewById, getInterviewLogById } from "../api/interview";
+
+import { postChatAi } from "../api/ai";
+
+
+
+export const Chat = () => {
+
+const [messages, setMessages] = useState([]); // Remove dummy data
+
+const [inputMessage, setInputMessage] = useState("");
+
+const [loading, setLoading] = useState(false);
+
+const [init, setInit] = useState(false);
+
+const [error, setError] = useState(null);
+
+const [initializing, setInitializing] = useState(true);
+
+const { id } = useParams();
+
+
+
+useEffect(() => {
+
+const initializeChat = async () => {
+
+setInitializing(true);
+
+setError(null);
+
+
+
+try {
+
+const data = await getInterviewById(id);
+
+const response = data.data.status;
+
+console.log("status interview:", response);
+
+
+
+if (response === "in_progress" || response === "finished") {
+
+console.log("Interview ongoing, fetching messages...");
+
+const logData = await getInterviewLogById(id);
+
+console.log("Fetched interview log:", logData);
+
+setMessages(logData);
+
+} else if (response === "not_started" && !init) {
+
+console.log("Interview not started, initializing...");
+
+setInit(true);
+
+setLoading(true);
+
+
+
+const chatResponse = await postChatAi(id, "");
+
+console.log("Chat AI response:", chatResponse.data);
+
+const initialMessage = {
+
+message: chatResponse.data,
+
+sender: "bot",
+
+};
+
+setMessages([initialMessage]);
+
+setLoading(false);
+
+}
+
+} catch (error) {
+
+console.error("Error initializing chat:", error);
+
+setError("Layanan ini sedang tidak aktif. Silakan coba lagi nanti.");
+
+setLoading(false);
+
+} finally {
+
+setInitializing(false);
+
+}
+
+};
+
+
+
+if (id) {
+
+initializeChat();
+
+}
+
+}, [id, init]);
+
+
+
+const handleSendMessage = async () => {
+
+if (inputMessage.trim() === "" || loading) return;
+
+
+
+const userMessage = inputMessage.trim();
+
+const newUserMessage = {
+
+id: Date.now(),
+
+message: userMessage,
+
+sender: "user",
+
+};
+
+
+
+setMessages((prev) => [...prev, newUserMessage]);
+
+setInputMessage("");
+
+setLoading(true);
+
+setError(null);
+
+
+
+try {
+
+const response = await postChatAi(id, userMessage);
+
+console.log("Chat AI response:", response.data);
+
+
+
+const botResponse = {
+
+id: Date.now() + 1,
+
+message: response.data,
+
+sender: "bot",
+
+};
+
+
+
+setMessages((prev) => [...prev, botResponse]);
+
+} catch (error) {
+
+console.error("Error sending message to AI:", error);
+
+setError("Layanan ini sedang tidak aktif. Silakan coba lagi nanti.");
+
+
+
+// Add error message to chat
+
+const errorMessage = {
+
+id: Date.now() + 1,
+
+message: "Maaf, terjadi kesalahan. Layanan chat sedang tidak tersedia.",
+
+sender: "bot",
+
+isError: true,
+
+};
+
+setMessages((prev) => [...prev, errorMessage]);
+
+} finally {
+
+setLoading(false);
+
+}
+
+};
+
+return (
+
+<div style={{ height: "100vh", overflow: "hidden" }}>
+
+{error && (
+
+<Alert
+
+icon={<IconAlertCircle size={16} />}
+
+title="Layanan Tidak Tersedia"
+
+color="red"
+
+variant="filled"
+
+style={{
+
+position: "fixed",
+
+top: "20px",
+
+left: "50%",
+
+transform: "translateX(-50%)",
+
+zIndex: 9999,
+
+maxWidth: "400px",
+
+width: "90%",
+
+}}
+
+>
+
+{error}
+
+</Alert>
+
+)}
+
+
+
+<ChatbotPage
+
+messages={messages}
+
+inputMessage={inputMessage}
+
+setInputMessage={setInputMessage}
+
+handleSendMessage={handleSendMessage}
+
+isLoading={loading}
+
+initializing={initializing}
+
+error={error}
+
+/>
+
+</div>
+
+);
+
+};
+
+
+
+CompanyView.jsx
+
+import {
+
+Container,
+
+Text,
+
+Alert,
+
+Skeleton,
+
+Card,
+
+Stack,
+
+Group,
+
+Title,
+
+} from "@mantine/core";
+
+import { useParams } from "react-router-dom";
+
+import { useState, useEffect } from "react";
+
+import { getCompanyById } from "../api/company";
+
+import { CompanyCardView } from "../components/Company/CompanyCardView";
+
+import { CompanyCardEdit } from "../components/Company/CompanyCardEdit";
+
+import { updateCompany } from "../api/company";
+
+import { IconAlertCircle, IconBuilding, IconLoader } from "@tabler/icons-react";
+
+
+
+export const CompanyView = () => {
+
+const [companyData, setCompanyData] = useState(null);
+
+const [error, setError] = useState(null);
+
+const [loading, setLoading] = useState(true);
+
+const [editMode, setEditMode] = useState(false);
+
+const [updating, setUpdating] = useState(false);
+
+const { id } = useParams();
+
+
+
+const handleSave = async (updatedCompany) => {
+
+setUpdating(true);
+
+setError(null);
+
+
+
+try {
+
+console.log("Updated company data:", updatedCompany);
+
+await updateCompany(id, updatedCompany);
+
+
+
+// After updating, fetch the company data again to reflect changes
+
+const data = await getCompanyById(id);
+
+setCompanyData(data.data);
+
+console.log("Company data updated:", data.data);
+
+setEditMode(false);
+
+} catch (error) {
+
+console.error("Error updating company:", error);
+
+setError(error);
+
+} finally {
+
+setUpdating(false);
+
+}
+
+};
+
+
+
+const handleCancel = () => {
+
+setEditMode(false);
+
+};
+
+
+
+useEffect(() => {
+
+const fetchCompanyData = async () => {
+
+setLoading(true);
+
+setError(null);
+
+
+
+try {
+
+const data = await getCompanyById(id);
+
+setCompanyData(data.data);
+
+console.log("Company data fetched:", data.data);
+
+} catch (error) {
+
+console.error("Error fetching company data:", error);
+
+setError(error);
+
+} finally {
+
+setLoading(false);
+
+}
+
+};
+
+
+
+if (id) {
+
+fetchCompanyData();
+
+}
+
+}, [id]);
+
+// Loading skeleton component
+
+const LoadingSkeleton = () => (
+
+<div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-8">
+
+<Container size="md">
+
+<Card
+
+shadow="xl"
+
+padding="xl"
+
+radius="xl"
+
+withBorder={false}
+
+className="bg-white border-0 shadow-2xl"
+
+>
+
+<Stack spacing="xl">
+
+<div className="text-center space-y-4">
+
+<Skeleton
+
+height={64}
+
+width={64}
+
+radius="xl"
+
+className="mx-auto"
+
+/>
+
+<Skeleton height={32} width="60%" className="mx-auto" />
+
+</div>
+
+<Skeleton height={1} />
+
+<div className="space-y-3">
+
+<Skeleton height={24} width="40%" />
+
+<Skeleton height={80} />
+
+</div>
+
+<Skeleton height={1} />
+
+<Group className="justify-between">
+
+<Skeleton height={36} width={150} />
+
+<Skeleton height={36} width={120} />
+
+</Group>
+
+</Stack>
+
+</Card>
+
+</Container>
+
+</div>
+
+);
+
+
+
+return (
+
+<div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
+
+{loading ? (
+
+<LoadingSkeleton />
+
+) : error ? (
+
+<div className="py-8">
+
+<Container size="md">
+
+<Alert
+
+icon={<IconAlertCircle size="1rem" />}
+
+title="Error Loading Company"
+
+color="red"
+
+variant="filled"
+
+className="shadow-lg"
+
+>
+
+{error.message ||
+
+"Failed to load company data. Please try again."}
+
+</Alert>
+
+</Container>
+
+</div>
+
+) : !companyData ? (
+
+<div className="py-8">
+
+<Container size="md">
+
+<Alert
+
+icon={<IconBuilding size="1rem" />}
+
+title="Company Not Found"
+
+color="yellow"
+
+variant="filled"
+
+className="shadow-lg"
+
+>
+
+The requested company could not be found.
+
+</Alert>
+
+</Container>
+
+</div>
+
+) : editMode ? (
+
+<div className="py-8">
+
+<Container size="md">
+
+<CompanyCardEdit
+
+onCancel={handleCancel}
+
+onSave={handleSave}
+
+isEdit={true}
+
+companyTitle={companyData.name}
+
+companyDesc={companyData.description}
+
+isLoading={updating}
+
+/>
+
+</Container>
+
+</div>
+
+) : (
+
+<CompanyCardView
+
+companyTitle={companyData.name}
+
+companyDesc={companyData.description}
+
+onEdit={() => setEditMode(true)}
+
+/>
+
+)}
+
+</div>
+
+);
+
+};
+
+
+
+Dashboard.jsx
+
+import {
+
+Container,
+
+Tabs,
+
+Card,
+
+Title,
+
+Group,
+
+Badge,
+
+Skeleton,
+
+} from "@mantine/core";
+
+import { lazy, Suspense } from "react";
+
+import {
+
+IconBriefcase,
+
+IconBuilding,
+
+IconUsers,
+
+IconTrendingUp,
+
+} from "@tabler/icons-react";
+
+
+
+// Lazy load komponen tabel untuk performa lebih baik
+
+const JobTable = lazy(() =>
+
+import("../components/Jobs/JobTable").then((module) => ({
+
+default: module.JobTable,
+
+}))
+
+);
+
+const CompanyTable = lazy(() =>
+
+import("../components/Company/CompanyTable").then((module) => ({
+
+default: module.CompanyTable,
+
+}))
+
+);
+
+
+
+// Loading component untuk tabel
+
+const TableSkeleton = () => (
+
+<div className="space-y-4">
+
+<Skeleton height={20} />
+
+<Skeleton height={20} />
+
+<Skeleton height={20} />
+
+<Skeleton height={20} />
+
+<Skeleton height={20} />
+
+</div>
+
+);
+
+
+
+export const Dashboard = () => {
+
+return (
+
+<div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+
+<Container size="xl" className="py-8">
+
+{/* Header Section */}
+
+<div className="mb-8">
+
+<Title order={1} className="text-4xl font-bold text-gray-800 mb-2">
+
+Dashboard
+
+</Title>
+
+<p className="text-lg text-gray-600">
+
+Manage your jobs and companies efficiently
+
+</p>
+
+</div>
+
+
+
+{/* Stats Cards - Simplified untuk performa */}
+
+{/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+
+<Card className="bg-gradient-to-r from-blue-500 to-blue-600 text-white shadow-lg hover:shadow-xl transition-shadow duration-200">
+
+<Group className="items-center justify-between">
+
+<div>
+
+<Title order={3} className="text-2xl font-bold">
+
+156
+
+</Title>
+
+<p className="text-blue-100">Total Jobs</p>
+
+</div>
+
+<IconBriefcase size={40} className="text-blue-200" />
+
+</Group>
+
+</Card>
+
+
+
+<Card className="bg-gradient-to-r from-green-500 to-green-600 text-white shadow-lg hover:shadow-xl transition-shadow duration-200">
+
+<Group className="items-center justify-between">
+
+<div>
+
+<Title order={3} className="text-2xl font-bold">
+
+42
+
+</Title>
+
+<p className="text-green-100">Companies</p>
+
+</div>
+
+<IconBuilding size={40} className="text-green-200" />
+
+</Group>
+
+</Card>
+
+
+
+<Card className="bg-gradient-to-r from-purple-500 to-purple-600 text-white shadow-lg hover:shadow-xl transition-shadow duration-200">
+
+<Group className="items-center justify-between">
+
+<div>
+
+<Title order={3} className="text-2xl font-bold">
+
+1,234
+
+</Title>
+
+<p className="text-purple-100">Applications</p>
+
+</div>
+
+<IconUsers size={40} className="text-purple-200" />
+
+</Group>
+
+</Card>
+
+
+
+<Card className="bg-gradient-to-r from-orange-500 to-orange-600 text-white shadow-lg hover:shadow-xl transition-shadow duration-200">
+
+<Group className="items-center justify-between">
+
+<div>
+
+<Title order={3} className="text-2xl font-bold">
+
+89%
+
+</Title>
+
+<p className="text-orange-100">Success Rate</p>
+
+</div>
+
+<IconTrendingUp size={40} className="text-orange-200" />
+
+</Group>
+
+</Card>
+
+</div> */}
+
+
+
+{/* Main Content */}
+
+<Card className="bg-white shadow-xl rounded-xl border-0 overflow-hidden">
+
+<Tabs defaultValue="jobs" variant="pills" className="w-full">
+
+<div className="bg-gray-50 px-6 py-4 border-b border-gray-100">
+
+<Tabs.List className="bg-white rounded-lg p-1 shadow-sm">
+
+<Tabs.Tab
+
+value="jobs"
+
+className="px-6 py-3 font-semibold text-gray-700 hover:text-blue-600 data-[active]:bg-blue-600 data-[active]:text-white data-[active]:shadow-md transition-all duration-200"
+
+>
+
+<Group spacing="xs">
+
+<IconBriefcase size={18} />
+
+<span>Jobs Management</span>
+
+</Group>
+
+</Tabs.Tab>
+
+<Tabs.Tab
+
+value="companies"
+
+className="px-6 py-3 font-semibold text-gray-700 hover:text-green-600 data-[active]:bg-green-600 data-[active]:text-white data-[active]:shadow-md transition-all duration-200"
+
+>
+
+<Group spacing="xs">
+
+<IconBuilding size={18} />
+
+<span>Companies Management</span>
+
+</Group>
+
+</Tabs.Tab>
+
+</Tabs.List>
+
+</div>
+
+
+
+<Tabs.Panel value="jobs" className="p-6">
+
+<div className="space-y-4">
+
+{/* <Group className="items-center justify-between">
+
+<div>
+
+<Title
+
+order={2}
+
+className="text-xl font-semibold text-gray-800"
+
+>
+
+Job Listings
+
+</Title>
+
+<p className="text-gray-600">
+
+Manage and track all job postings
+
+</p>
+
+</div>
+
+<Badge
+
+variant="light"
+
+color="blue"
+
+size="lg"
+
+className="px-3 py-2"
+
+>
+
+Active Jobs
+
+</Badge>
+
+</Group> */}
+
+<div className="bg-white rounded-lg">
+
+<Suspense fallback={<TableSkeleton />}>
+
+<JobTable />
+
+</Suspense>
+
+</div>
+
+</div>
+
+</Tabs.Panel>
+
+
+
+<Tabs.Panel value="companies" className="p-6">
+
+<div className="space-y-4">
+
+{/* <Group className="items-center justify-between">
+
+<div>
+
+<Title
+
+order={2}
+
+className="text-xl font-semibold text-gray-800"
+
+>
+
+Company Directory
+
+</Title>
+
+<p className="text-gray-600">
+
+Manage partner companies and organizations
+
+</p>
+
+</div>
+
+<Badge
+
+variant="light"
+
+color="green"
+
+size="lg"
+
+className="px-3 py-2"
+
+>
+
+Active Partners
+
+</Badge>
+
+</Group> */}
+
+<div className="bg-white rounded-lg">
+
+<Suspense fallback={<TableSkeleton />}>
+
+<CompanyTable />
+
+</Suspense>
+
+</div>
+
+</div>
+
+</Tabs.Panel>
+
+</Tabs>
+
+</Card>
+
+</Container>
+
+</div>
+
+);
+
+};
+
+
+
+Home.jsx
+
+import DemoJobCard from "../components/Jobs/JobCard";
+
+import {
+
+Container,
+
+Grid,
+
+Title,
+
+Text,
+
+Alert,
+
+Skeleton,
+
+Card,
+
+Stack,
+
+Group,
+
+Badge,
+
+Center,
+
+Button,
+
+} from "@mantine/core";
+
+import { useEffect, useState, useMemo } from "react";
+
+import { getJobs } from "../api/jobs";
+
+import { getCompanies } from "../api/company";
+
+import { useNavigate } from "react-router-dom";
+
+import {
+
+IconBriefcase,
+
+IconAlertCircle,
+
+IconSearch,
+
+IconTrendingUp,
+
+IconUsers,
+
+} from "@tabler/icons-react";
+
+
+
+const Home = () => {
+
+const navigate = useNavigate();
+
+const [jobs, setJobs] = useState([]);
+
+const [companies, setCompanies] = useState([]);
+
+const [loading, setLoading] = useState(true);
+
+const [error, setError] = useState(null);
+
+
+
+// Memoized company lookup for efficient company name resolution
+
+const companyMap = useMemo(() => {
+
+const map = new Map();
+
+companies.forEach((company) => {
+
+const companyId = company._id?.["$oid"] || company._id || company.id;
+
+map.set(companyId, company.name);
+
+});
+
+return map;
+
+}, [companies]);
+
+
+
+// Memoized stats calculation
+
+const stats = useMemo(() => {
+
+if (!jobs.length) return { total: 0, skills: 0, companies: 0 };
+
+
+
+const uniqueSkills = new Set();
+
+const uniqueCompanies = new Set();
+
+
+
+jobs.forEach((job) => {
+
+if (job.skills) {
+
+job.skills.forEach((skill) => uniqueSkills.add(skill));
+
+}
+
+if (job.company_id) {
+
+uniqueCompanies.add(job.company_id);
+
+}
+
+});
+
+
+
+return {
+
+total: jobs.length,
+
+skills: uniqueSkills.size,
+
+companies: uniqueCompanies.size,
+
+};
+
+}, [jobs]);
+
+useEffect(() => {
+
+const fetchData = async () => {
+
+setLoading(true);
+
+setError(null);
+
+
+
+try {
+
+// Fetch jobs and companies in parallel
+
+const [jobsData, companiesData] = await Promise.all([
+
+getJobs(),
+
+getCompanies(),
+
+]);
+
+
+
+setJobs(jobsData.data);
+
+setCompanies(companiesData.data);
+
+console.log("Jobs data fetched:", jobsData.data);
+
+console.log("Companies data fetched:", companiesData.data);
+
+} catch (error) {
+
+console.error("Error fetching data:", error);
+
+setError(error);
+
+} finally {
+
+setLoading(false);
+
+}
+
+};
+
+
+
+fetchData();
+
+}, []);
+
+// Loading skeleton component
+
+const LoadingSkeleton = () => (
+
+<Grid align="stretch" gutter="lg">
+
+{Array(6)
+
+.fill(0)
+
+.map((_, index) => (
+
+<Grid.Col span={{ base: 12, sm: 6, lg: 4 }} key={index}>
+
+<Card shadow="lg" padding="lg" radius="xl" className="h-full">
+
+<Card.Section>
+
+<Skeleton height={180} />
+
+</Card.Section>
+
+<Stack spacing="md" className="pt-4">
+
+<Group spacing="xs">
+
+<Skeleton height={32} width={32} radius="lg" />
+
+<Skeleton height={24} className="flex-1" />
+
+</Group>
+
+<Skeleton height={60} />
+
+<Group spacing="xs">
+
+<Skeleton height={24} width={60} radius="md" />
+
+<Skeleton height={24} width={80} radius="md" />
+
+<Skeleton height={24} width={70} radius="md" />
+
+</Group>
+
+<Skeleton height={40} radius="lg" />
+
+</Stack>
+
+</Card>
+
+</Grid.Col>
+
+))}
+
+</Grid>
+
+);
+
+
+
+return (
+
+<div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-blue-50">
+
+<Container size="xl" className="py-8">
+
+{/* Header Section */}
+
+<div
+
+className="text-center mb-12"
+
+style={{ textAlign: "center", width: "100%" }}
+
+>
+
+<div
+
+className="inline-flex items-center justify-center w-20 h-20 bg-blue-100 rounded-full mb-6"
+
+style={{ margin: "0 auto 1.5rem auto" }}
+
+>
+
+<IconBriefcase size={40} className="text-blue-600" />
+
+</div>
+
+<Title
+
+order={1}
+
+className="text-4xl font-bold text-gray-800 mb-4 text-center mx-auto"
+
+style={{
+
+background: "linear-gradient(135deg, #1e40af 0%, #3b82f6 100%)",
+
+WebkitBackgroundClip: "text",
+
+WebkitTextFillColor: "transparent",
+
+backgroundClip: "text",
+
+color: "transparent",
+
+display: "block",
+
+textAlign: "center",
+
+width: "100%",
+
+margin: "0 auto 1rem auto",
+
+}}
+
+>
+
+Discover Your Dream Job
+
+</Title>
+
+<Text
+
+size="lg"
+
+className="text-gray-600 max-w-2xl mx-auto leading-relaxed"
+
+style={{
+
+textAlign: "center",
+
+display: "block",
+
+width: "100%",
+
+margin: "0 auto",
+
+}}
+
+>
+
+Explore exciting career opportunities and find the perfect role that
+
+matches your skills and ambitions.
+
+</Text>
+
+</div>
+
+
+
+{/* Stats Cards */}
+
+{!loading && !error && jobs.length > 0 && (
+
+<Grid gutter="lg" className="mb-12">
+
+<Grid.Col span={{ base: 12, sm: 4 }}>
+
+<Card
+
+shadow="md"
+
+padding="lg"
+
+radius="xl"
+
+className="text-center bg-gradient-to-br from-blue-50 to-indigo-100 border-0"
+
+>
+
+<IconBriefcase
+
+size={32}
+
+className="text-blue-600 mx-auto mb-3"
+
+/>
+
+<Title order={2} className="text-2xl font-bold text-blue-700">
+
+{stats.total}
+
+</Title>
+
+<Text size="sm" className="text-blue-600 font-medium">
+
+Available Jobs
+
+</Text>
+
+</Card>
+
+</Grid.Col>
+
+<Grid.Col span={{ base: 12, sm: 4 }}>
+
+<Card
+
+shadow="md"
+
+padding="lg"
+
+radius="xl"
+
+className="text-center bg-gradient-to-br from-green-50 to-emerald-100 border-0"
+
+>
+
+<IconTrendingUp
+
+size={32}
+
+className="text-green-600 mx-auto mb-3"
+
+/>
+
+<Title order={2} className="text-2xl font-bold text-green-700">
+
+{stats.skills}
+
+</Title>
+
+<Text size="sm" className="text-green-600 font-medium">
+
+Skill Categories
+
+</Text>
+
+</Card>
+
+</Grid.Col>
+
+<Grid.Col span={{ base: 12, sm: 4 }}>
+
+<Card
+
+shadow="md"
+
+padding="lg"
+
+radius="xl"
+
+className="text-center bg-gradient-to-br from-purple-50 to-violet-100 border-0"
+
+>
+
+<IconUsers size={32} className="text-purple-600 mx-auto mb-3" />
+
+<Title order={2} className="text-2xl font-bold text-purple-700">
+
+{stats.companies}
+
+</Title>
+
+<Text size="sm" className="text-purple-600 font-medium">
+
+Hiring Companies
+
+</Text>
+
+</Card>
+
+</Grid.Col>
+
+</Grid>
+
+)}
+
+
+
+{/* Content Section */}
+
+{loading ? (
+
+<LoadingSkeleton />
+
+) : error ? (
+
+<Center className="py-20">
+
+<Alert
+
+icon={<IconAlertCircle size="1.5rem" />}
+
+title="Unable to Load Jobs"
+
+color="red"
+
+variant="filled"
+
+className="max-w-md shadow-lg"
+
+>
+
+{error.message ||
+
+"Failed to fetch job listings. Please try again later."}
+
+</Alert>
+
+</Center>
+
+) : jobs.length === 0 ? (
+
+<Center className="py-20">
+
+<Stack spacing="lg" align="center">
+
+<div className="inline-flex items-center justify-center w-24 h-24 bg-gray-100 rounded-full">
+
+<IconSearch size={48} className="text-gray-400" />
+
+</div>
+
+<div className="text-center">
+
+<Title order={3} className="text-gray-700 mb-2">
+
+No Jobs Available
+
+</Title>
+
+<Text className="text-gray-500">
+
+There are currently no job listings. Check back later for new
+
+opportunities!
+
+</Text>
+
+</div>
+
+<Button
+
+variant="light"
+
+color="blue"
+
+onClick={() => window.location.reload()}
+
+>
+
+Refresh Page
+
+</Button>
+
+</Stack>
+
+</Center>
+
+) : (
+
+<div className="space-y-6">
+
+<div className="flex items-center justify-between">
+
+<Group spacing="md">
+
+<Title order={2} className="text-gray-800">
+
+Available Positions
+
+</Title>
+
+<Badge
+
+color="blue"
+
+variant="light"
+
+size="lg"
+
+className="font-medium"
+
+>
+
+{jobs.length} Jobs
+
+</Badge>
+
+</Group>
+
+</div>
+
+
+
+<Grid align="stretch" gutter="lg">
+
+{jobs.map((job) => {
+
+const companyName = companyMap.get(job.company_id) || "Company";
+
+return (
+
+<Grid.Col
+
+span={{ base: 12, sm: 6, lg: 4 }}
+
+key={job.id || job._id}
+
+>
+
+<DemoJobCard
+
+title={job.title}
+
+description={job.description}
+
+skills={job.skills}
+
+jobType={job.jobType || "Full-time"}
+
+companyName={companyName}
+
+companyId={job.company_id}
+
+location={job.location || "Remote"}
+
+imageUrl={job.imageUrl || "/img/download.png"}
+
+showCompanyLink={true}
+
+context="general" // Homepage context
+
+onClick={() => {
+
+const jobId = job._id?.["$oid"] || job._id || job.id;
+
+navigate(`/job/${jobId}`);
+
+}}
+
+/>
+
+</Grid.Col>
+
+);
+
+})}
+
+</Grid>
+
+</div>
+
+)}
+
+</Container>
+
+</div>
+
+);
+
+};
+
+
+
+export default Home;
+
+
+
+JobApply.jsx
+
+import { useParams } from "react-router-dom";
+
+import { getJobbyId } from "../api/jobs";
+
+import { getCompanyById } from "../api/company";
+
+import { useEffect, useState } from "react";
+
+import { JobCardView } from "../components/Jobs/JobCardView";
+
+import {
+
+Container,
+
+Text,
+
+Alert,
+
+Skeleton,
+
+Card,
+
+Stack,
+
+Group,
+
+Button,
+
+Modal,
+
+Title,
+
+} from "@mantine/core";
+
+import { useNavigate } from "react-router-dom";
+
+import { postInterview } from "../api/interview";
+
+import {
+
+IconAlertCircle,
+
+IconBriefcase,
+
+IconCheck,
+
+IconLoader,
+
+} from "@tabler/icons-react";
+
+
+
+export const JobApply = () => {
+
+const [jobData, setJobData] = useState(null);
+
+const [companyData, setCompanyData] = useState(null);
+
+const [error, setError] = useState(null);
+
+const [loading, setLoading] = useState(true);
+
+const [applying, setApplying] = useState(false);
+
+const [confirmModal, setConfirmModal] = useState(false);
+
+
+
+const navigate = useNavigate();
+
+const { id } = useParams();
+
+
+
+const handleApplyConfirm = async () => {
+
+setApplying(true);
+
+setError(null);
+
+
+
+try {
+
+console.log("Applying for job with ID:", id);
+
+const response = await postInterview(id);
+
+
+
+// Show success notification
+
+console.log("Interview request sent successfully:", response.data);
+
+
+
+const interview_id = response.data.interview_id;
+
+setConfirmModal(false);
+
+
+
+// Navigate to chat after successful application
+
+navigate(`/chat/${interview_id}`);
+
+} catch (error) {
+
+console.error("Error applying for job:", error);
+
+setError(error);
+
+} finally {
+
+setApplying(false);
+
+}
+
+};
+
+
+
+const showApplyConfirmation = () => {
+
+setConfirmModal(true);
+
+};
+
+
+
+useEffect(() => {
+
+const fetchJobData = async () => {
+
+setLoading(true);
+
+setError(null);
+
+
+
+try {
+
+const data = await getJobbyId(id);
+
+setJobData(data.data);
+
+console.log("Job data fetched:", data.data);
+
+
+
+// Fetch company data if company_id exists
+
+if (data.data.company_id) {
+
+try {
+
+const company = await getCompanyById(data.data.company_id);
+
+setCompanyData(company.data);
+
+console.log("Company data fetched:", company.data);
+
+} catch (companyError) {
+
+console.error("Error fetching company data:", companyError);
+
+// Don't set error state for company fetch failure
+
+}
+
+}
+
+} catch (error) {
+
+console.error("Error fetching job data:", error);
+
+setError(error);
+
+} finally {
+
+setLoading(false);
+
+}
+
+};
+
+
+
+if (id) {
+
+fetchJobData();
+
+}
+
+}, [id]);
+
+// Loading skeleton component
+
+const LoadingSkeleton = () => (
+
+<div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100 py-8">
+
+<Container size="md">
+
+<Card
+
+shadow="xl"
+
+padding="xl"
+
+radius="xl"
+
+withBorder={false}
+
+className="bg-white border-0 shadow-2xl"
+
+>
+
+<Stack spacing="xl">
+
+<div className="text-center space-y-4">
+
+<Skeleton
+
+height={64}
+
+width={64}
+
+radius="xl"
+
+className="mx-auto"
+
+/>
+
+<Skeleton height={32} width="60%" className="mx-auto" />
+
+</div>
+
+<Skeleton height={1} />
+
+<div className="space-y-3">
+
+<Skeleton height={24} width="40%" />
+
+<Group spacing="sm">
+
+<Skeleton height={32} width={80} radius="md" />
+
+<Skeleton height={32} width={100} radius="md" />
+
+<Skeleton height={32} width={90} radius="md" />
+
+</Group>
+
+</div>
+
+<Skeleton height={1} />
+
+<div className="space-y-3">
+
+<Skeleton height={24} width="40%" />
+
+<Skeleton height={80} />
+
+</div>
+
+<Skeleton height={1} />
+
+<Group className="justify-between">
+
+<Skeleton height={36} width={150} />
+
+<Skeleton height={36} width={120} />
+
+</Group>
+
+</Stack>
+
+</Card>
+
+</Container>
+
+</div>
+
+);
+
+
+
+return (
+
+<div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-100">
+
+{/* Confirmation Modal */}
+
+<Modal
+
+opened={confirmModal}
+
+onClose={() => setConfirmModal(false)}
+
+title={
+
+<Group spacing="xs">
+
+<IconBriefcase size={20} className="text-green-600" />
+
+<Title order={4}>Confirm Job Application</Title>
+
+</Group>
+
+}
+
+centered
+
+size="md"
+
+>
+
+<Stack spacing="md">
+
+<Text size="sm" className="text-gray-600">
+
+Are you sure you want to apply for this position? This will start an
+
+AI interview session.
+
+</Text>
+
+
+
+{jobData && (
+
+<Card className="bg-green-50 border border-green-200" padding="md">
+
+<Text weight={500} className="text-green-800">
+
+{jobData.title}
+
+</Text>
+
+<Text size="sm" className="text-green-600 mt-1">
+
+This application will initiate an interview process
+
+</Text>
+
+</Card>
+
+)}
+
+
+
+<Group className="justify-end" spacing="sm">
+
+<Button
+
+variant="light"
+
+color="gray"
+
+onClick={() => setConfirmModal(false)}
+
+disabled={applying}
+
+>
+
+Cancel
+
+</Button>
+
+<Button
+
+color="green"
+
+onClick={handleApplyConfirm}
+
+loading={applying}
+
+leftSection={
+
+applying ? <IconLoader size={16} /> : <IconCheck size={16} />
+
+}
+
+>
+
+{applying ? "Applying..." : "Confirm Application"}
+
+</Button>
+
+</Group>
+
+</Stack>
+
+</Modal>
+
+
+
+{/* Main Content */}
+
+{loading ? (
+
+<LoadingSkeleton />
+
+) : error ? (
+
+<div className="py-8">
+
+<Container size="md">
+
+<Alert
+
+icon={<IconAlertCircle size="1rem" />}
+
+title="Error Loading Job"
+
+color="red"
+
+variant="filled"
+
+className="shadow-lg"
+
+>
+
+{error.message || "Failed to load job data. Please try again."}
+
+</Alert>
+
+</Container>
+
+</div>
+
+) : !jobData ? (
+
+<div className="py-8">
+
+<Container size="md">
+
+<Alert
+
+icon={<IconBriefcase size="1rem" />}
+
+title="Job Not Found"
+
+color="yellow"
+
+variant="filled"
+
+className="shadow-lg"
+
+>
+
+The requested job could not be found.
+
+</Alert>
+
+</Container>
+
+</div>
+
+) : (
+
+<JobCardView
+
+jobTitle={jobData.title}
+
+JobDesc={jobData.description}
+
+JobSkills={jobData.skills}
+
+companyName={companyData?.name || "Company"}
+
+location={jobData.location || "Remote"}
+
+onBack={() => navigate(-1)}
+
+isApply={true}
+
+onEdit={showApplyConfirmation}
+
+/>
+
+)}
+
+</div>
+
+);
+
+};
+
+
+
+JobView.jsx
+
+import {
+
+Card,
+
+Container,
+
+Stack,
+
+Title,
+
+Text,
+
+Group,
+
+Button,
+
+Loader,
+
+Alert,
+
+Skeleton,
+
+} from "@mantine/core";
+
+import { useParams } from "react-router-dom";
+
+import { getJobbyId } from "../api/jobs";
+
+import { getCompanyById } from "../api/company";
+
+import { useEffect, useState } from "react";
+
+import { JobCardView } from "../components/Jobs/JobCardView";
+
+import { JobCardEditForm } from "../components/Jobs/JobCardEdit";
+
+import { updateJob } from "../api/jobs";
+
+import { IconAlertCircle, IconBriefcase } from "@tabler/icons-react";
+
+
+
+export const JobView = () => {
+
+const [jobData, setJobData] = useState(null);
+
+const [companyData, setCompanyData] = useState(null);
+
+const [error, setError] = useState(null);
+
+const [loading, setLoading] = useState(true);
+
+const { id } = useParams(); // Get the job ID from the URL parameters
+
+
+
+// milik job edit
+
+const [editMode, setEditMode] = useState(false);
+
+const [updating, setUpdating] = useState(false);
+
+const handleSave = async (updatedJob) => {
+
+setUpdating(true);
+
+setError(null);
+
+
+
+try {
+
+await updateJob(id, updatedJob);
+
+// Setelah update, fetch ulang data detail
+
+const detail = await getJobbyId(id);
+
+setJobData(detail.data);
+
+setEditMode(false);
+
+} catch (error) {
+
+console.error("Error updating job:", error);
+
+setError(error);
+
+} finally {
+
+setUpdating(false);
+
+}
+
+};
+
+
+
+const handleCancel = () => {
+
+setEditMode(false);
+
+};
+
+
+
+useEffect(() => {
+
+const fetchJobData = async () => {
+
+setLoading(true);
+
+setError(null);
+
+
+
+try {
+
+const data = await getJobbyId(id);
+
+setJobData(data.data);
+
+console.log("Job data fetched:", data.data);
+
+
+
+// Fetch company data if company_id exists
+
+if (data.data.company_id) {
+
+try {
+
+const company = await getCompanyById(data.data.company_id);
+
+setCompanyData(company.data);
+
+console.log("Company data fetched:", company.data);
+
+} catch (companyError) {
+
+console.error("Error fetching company data:", companyError);
+
+// Don't set error state for company fetch failure
+
+}
+
+}
+
+} catch (error) {
+
+console.error("Error fetching job data:", error);
+
+setError(error);
+
+} finally {
+
+setLoading(false);
+
+}
+
+};
+
+
+
+if (id) {
+
+fetchJobData();
+
+}
+
+}, [id]); // Loading skeleton component
+
+const LoadingSkeleton = () => (
+
+<div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8">
+
+<Container size="md">
+
+<Card
+
+shadow="xl"
+
+padding="xl"
+
+radius="xl"
+
+withBorder={false}
+
+className="bg-white border-0 shadow-2xl"
+
+>
+
+<Stack spacing="xl">
+
+<div className="text-center space-y-4">
+
+<Skeleton
+
+height={64}
+
+width={64}
+
+radius="xl"
+
+className="mx-auto"
+
+/>
+
+<Skeleton height={32} width="60%" className="mx-auto" />
+
+</div>
+
+<Skeleton height={1} />
+
+<div className="space-y-3">
+
+<Skeleton height={24} width="40%" />
+
+<Group spacing="sm">
+
+<Skeleton height={32} width={80} radius="md" />
+
+<Skeleton height={32} width={100} radius="md" />
+
+<Skeleton height={32} width={90} radius="md" />
+
+</Group>
+
+</div>
+
+<Skeleton height={1} />
+
+<div className="space-y-3">
+
+<Skeleton height={24} width="40%" />
+
+<Skeleton height={80} />
+
+</div>
+
+<Skeleton height={1} />
+
+<Group className="justify-between">
+
+<Skeleton height={36} width={150} />
+
+<Skeleton height={36} width={120} />
+
+</Group>
+
+</Stack>
+
+</Card>
+
+</Container>
+
+</div>
+
+);
+
+
+
+return (
+
+<div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+
+{loading ? (
+
+<LoadingSkeleton />
+
+) : error ? (
+
+<div className="py-8">
+
+<Container size="md">
+
+<Alert
+
+icon={<IconAlertCircle size="1rem" />}
+
+title="Error Loading Job"
+
+color="red"
+
+variant="filled"
+
+className="shadow-lg"
+
+>
+
+{error.message || "Failed to load job data. Please try again."}
+
+</Alert>
+
+</Container>
+
+</div>
+
+) : !jobData ? (
+
+<div className="py-8">
+
+<Container size="md">
+
+<Alert
+
+icon={<IconBriefcase size="1rem" />}
+
+title="Job Not Found"
+
+color="yellow"
+
+variant="filled"
+
+className="shadow-lg"
+
+>
+
+The requested job could not be found.
+
+</Alert>
+
+</Container>
+
+</div>
+
+) : editMode ? (
+
+<div
+
+style={{
+
+background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+
+minHeight: "100vh",
+
+padding: "2rem 0",
+
+}}
+
+>
+
+<Container size="lg">
+
+{/* Header Section */}
+
+<div
+
+style={{
+
+background: "rgba(255, 255, 255, 0.1)",
+
+backdropFilter: "blur(10px)",
+
+border: "1px solid rgba(255, 255, 255, 0.2)",
+
+borderRadius: "16px",
+
+padding: "2rem",
+
+marginBottom: "2rem",
+
+textAlign: "center",
+
+}}
+
+>
+
+<Group spacing="sm" mb="md" style={{ justifyContent: "center" }}>
+
+<IconBriefcase size={32} color="white" />
+
+<Title
+
+order={1}
+
+style={{
+
+color: "white",
+
+textAlign: "center",
+
+textShadow: "0 2px 4px rgba(0,0,0,0.3)",
+
+}}
+
+>
+
+Edit Job
+
+</Title>
+
+</Group>
+
+<Text
+
+size="lg"
+
+style={{
+
+color: "rgba(255, 255, 255, 0.9)",
+
+textAlign: "center",
+
+}}
+
+>
+
+Update job information for "{jobData.title}"
+
+</Text>
+
+</div>
+
+
+
+{/* Loading State */}
+
+{updating && (
+
+<div
+
+style={{
+
+background: "rgba(255, 255, 255, 0.1)",
+
+backdropFilter: "blur(10px)",
+
+border: "1px solid rgba(255, 255, 255, 0.2)",
+
+borderRadius: "16px",
+
+padding: "3rem",
+
+textAlign: "center",
+
+marginBottom: "2rem",
+
+}}
+
+>
+
+<Loader size="lg" color="white" />
+
+<Text mt="md" style={{ color: "white" }}>
+
+Updating job...
+
+</Text>
+
+</div>
+
+)}
+
+
+
+{/* Job Form */}
+
+<JobCardEditForm
+
+jobTitle={jobData.title}
+
+JobDesc={jobData.description}
+
+JobSkills={jobData.skills}
+
+CompanyId={jobData.company_id}
+
+allSkills={[
+
+"React",
+
+"Node",
+
+"Python",
+
+"JavaScript",
+
+"TypeScript",
+
+"Java",
+
+"C++",
+
+"Go",
+
+]}
+
+onSave={handleSave}
+
+onCancel={handleCancel}
+
+isLoading={updating}
+
+/>
+
+</Container>
+
+</div>
+
+) : (
+
+<JobCardView
+
+jobTitle={jobData.title}
+
+JobDesc={jobData.description}
+
+JobSkills={jobData.skills}
+
+companyName={companyData?.name || "Company"}
+
+companyId={jobData.company_id}
+
+location={jobData.location || "Remote"}
+
+onEdit={() => setEditMode(true)}
+
+showCompanyLink={true}
+
+context="dashboard" // Since this is from job detail view, treat as dashboard context
+
+/>
+
+)}
+
+</div>
+
+);
+
+};
+
+
+
+app.jsx
+
+// import { useState } from "react";
+
+// import reactLogo from "./assets/react.svg";
+
+// import viteLogo from "/vite.svg";
+
+import "./App.css";
+
+
+
+import Home from "./pages/Home";
+
+import { Dashboard } from "./pages/Dashboard";
+
+
+
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+
+import { JobView } from "./pages/JobView";
+
+import { CompanyView } from "./pages/CompanyView";
+
+import { AddJob } from "./pages/AddJob";
+
+import { AddCompany } from "./pages/AddCompany";
+
+import { JobApply } from "./pages/JobApply";
+
+import { Chat } from "./pages/Chat";
+
+
+
+function App() {
+
+// const [count, setCount] = useState(0);
+
+
+
+return (
+
+<>
+
+<BrowserRouter>
+
+<Routes>
+
+<Route path="/" element={<Home />} />
+
+<Route path="/home" element={<Home />} />
+
+<Route path="/job/:id" element={<JobApply />} />
+
+<Route path="/dashboard" element={<Dashboard />} />
+
+<Route path="/dashboard/job/:id" element={<JobView />} />
+
+<Route path="/dashboard/job/add" element={<AddJob />} />
+
+<Route path="/dashboard/company/:id" element={<CompanyView />} />
+
+<Route path="/dashboard/company/add" element={<AddCompany />} />
+
+<Route path="/chat" element={<Chat />} />
+
+<Route path="/chat/:id" element={<Chat />} />
+
+
+
+{/* Add more routes here as needed */}
+
+</Routes>
+
+</BrowserRouter>
+
+</>
+
+);
+
+}
+
+
+
+export default App;
+
+
+
+main.jsx
+
+import { StrictMode } from "react";
+
+import { createRoot } from "react-dom/client";
+
+// import './index.css'
+
+import "@mantine/core/styles.css";
+
+import { MantineProvider } from "@mantine/core";
+
+
+
+import App from "./App.jsx";
+
+
+
+createRoot(document.getElementById("root")).render(
+
+<MantineProvider withGlobalStyles withNormalizeCSS>
+
+<App />
+
+</MantineProvider>
+
+// <StrictMode>
+
+// </StrictMode>
+
+);
+
+
+
+app.css
+
+@import "tailwindcss";
+
+
+
+index.css
+
+:root {
+
+font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+line-height: 1.5;
+
+font-weight: 400;
+
+
+
+color-scheme: light dark;
+
+color: rgba(255, 255, 255, 0.87);
+
+background-color: #242424;
+
+
+
+font-synthesis: none;
+
+text-rendering: optimizeLegibility;
+
+-webkit-font-smoothing: antialiased;
+
+-moz-osx-font-smoothing: grayscale;
+
+}
+
+
+
+a {
+
+font-weight: 500;
+
+color: #646cff;
+
+text-decoration: inherit;
+
+}
+
+a:hover {
+
+color: #535bf2;
+
+}
+
+
+
+body {
+
+margin: 0;
+
+display: flex;
+
+place-items: center;
+
+min-width: 320px;
+
+min-height: 100vh;
+
+}
+
+
+
+h1 {
+
+font-size: 3.2em;
+
+line-height: 1.1;
+
+}
+
+
+
+button {
+
+border-radius: 8px;
+
+border: 1px solid transparent;
+
+padding: 0.6em 1.2em;
+
+font-size: 1em;
+
+font-weight: 500;
+
+font-family: inherit;
+
+background-color: #1a1a1a;
+
+cursor: pointer;
+
+transition: border-color 0.25s;
+
+}
+
+button:hover {
+
+border-color: #646cff;
+
+}
+
+button:focus,
+
+button:focus-visible {
+
+outline: 4px auto -webkit-focus-ring-color;
+
+}
+
+
+
+@media (prefers-color-scheme: light) {
+
+:root {
+
+color: #213547;
+
+background-color: #ffffff;
+
+}
+
+a:hover {
+
+color: #747bff;
+
+}
+
+button {
+
+background-color: #f9f9f9;
+
+}
+
+}
+
+
+
+nginx.conf
+
+server {
+
+listen 80;
+
+
+
+server_name localhost;
+
+
+
+root /usr/share/nginx/html;
+
+
+
+index index.html;
+
+
+
+location / {
+
+try_files $uri /index.html;
+
+}
+
+
+
+location /api/ {
+
+proxy_pass http://backend:8000;
+
+proxy_set_header Host $host;
+
+proxy_set_header X-Real-IP $remote_addr;
+
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+proxy_set_header X-Forwarded-Proto $scheme;
+
+}
+
+
+
+location /ai/ {
+
+proxy_pass http://ai:5050;
+
+proxy_set_header Host $host;
+
+proxy_set_header X-Real-IP $remote_addr;
+
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+proxy_set_header X-Forwarded-Proto $scheme;
+
+}
+
+
+
+error_page 404 /index.html;
+
+}
+
+
+
+vite.config.js
+
+import { defineConfig } from "vite";
+
+import react from "@vitejs/plugin-react";
+
+import tailwindcss from "@tailwindcss/vite";
+
+
+
+// https://vite.dev/config/
+
+export default defineConfig({
+
+plugins: [react(), tailwindcss()],
+
+server: {
+
+port: 3050,
+
+host: true,
+
+},
+
+});

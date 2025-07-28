@@ -1,6 +1,6 @@
 import os 
 from dotenv import load_dotenv
-from flask import blueprints
+from flask import Blueprint
 from flask import Flask
 from flask_cors import CORS
 
