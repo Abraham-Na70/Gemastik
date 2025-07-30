@@ -1,0 +1,6 @@
+1. Text display dari TTS-STT mesti refresh, baru terdisplay (urgent)
+2. Ada limit dari seberapa panjang text/audio yang kita kirim, likely karena API gratisan (optional)
+3. awal initial text, gak pake audio. bisa aja dibikin (optional)
+
+
+// Tambahin problem yang masih belom selesai disini (biar gak keteteran) //
